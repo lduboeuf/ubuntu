@@ -1,0 +1,31 @@
+{
+    "maxResults": "20",
+    "channels": [
+        {
+            "id": "UCWUDCz-Q0m4qK7lkK4CevQA",
+            "reminder": "ubuntu community contributors"
+        },
+        {
+            "id": "UCm7OifwnZoMCChidCJZQruQ",
+            "reminder": "ubuntu on air"
+        },
+        {
+            "id": "UChIwpm-B2cOzc8O_3xxvrxg",
+            "reminder": "Kyle Nitzsche"
+        }
+    ],
+    "playlists": [
+        {
+            "id": "PLcGkkXtask_f4dADgne0DVLlN1VI2iaek",
+            "reminder": "ch: haldionmusic, four seasons"
+        },
+        {
+            "id": "PLknytA7Q8cCheF9yXAAD251epJp7g3msk",
+            "reminder": "ch: classicalexperience"
+        },
+        {
+            "id": "PLDDB254F1F39B2208",
+            "reminder": "ch: bpanther, bach videos"
+        }
+    ]
+}

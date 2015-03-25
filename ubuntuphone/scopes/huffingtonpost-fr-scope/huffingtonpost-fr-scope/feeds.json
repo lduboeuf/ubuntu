@@ -1,0 +1,42 @@
+[
+    {
+        "label": "Toute l'actualité",
+        "id": "http://www.huffingtonpost.com/feeds/verticals/france/news.xml"
+    },
+    {
+        "label": "Politique",
+        "id": "http://www.huffingtonpost.fr/actualites/politique/feed=rss2"
+    },
+    {
+        "label": "Economie",
+        "id": "http://www.huffingtonpost.fr/actualites/economie/feed=rss2"
+    },
+    {
+        "label": "International",
+        "id": "http://www.huffingtonpost.fr/actualites/international/feed=rss2"
+    },
+    {
+        "label": "Culture",
+        "id": "http://www.huffingtonpost.fr/actualites/culture/feed=rss2"
+    },
+    {
+        "label": "Techno",
+        "id": "http://www.huffingtonpost.fr/actualites/techno/feed=rss2"
+    },
+    {
+        "label": "Médias",
+        "id": "http://www.huffingtonpost.fr/actualites/medias/feed=rss2"
+    },
+    {
+        "label": "People",
+        "id": "http://www.huffingtonpost.fr/actualites/people/feed=rss2"
+    },
+    {
+        "label": "Le bon lien",
+        "id": "http://www.huffingtonpost.fr/news/le-bon-lien/feed=rss2"
+    },
+    {
+        "label": "C'est la vie",
+        "id": "http://www.huffingtonpost.com/feeds/verticals/france-cest-la-vie/news.xml"
+    }
+]

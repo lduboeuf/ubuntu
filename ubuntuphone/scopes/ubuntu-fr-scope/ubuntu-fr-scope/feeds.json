@@ -1,0 +1,58 @@
+[
+    {
+        "label": "Planet Ubuntu-fr",
+        "id": "http://planet.ubuntu-fr.org/feed/rss2"
+    },
+    {
+        "label": "Nos évènements",
+        "id": "http://loco.ubuntu.com/feeds/teams/ubuntu-fr/"
+    },
+    {
+        "label": "Les évènements proposés par la Communauté",
+        "id": "http://forum.ubuntu-fr.org/extern.php?action=feed&fid=29&type=rss"
+    },
+    {
+        "label": "Ubuntu Party - Le Blog",
+        "id": "http://ubuntu-party.org/wp-rss2.php"
+    },
+    {
+        "label": "Ubuntu Dijon - Le Blog",
+        "id": "http://www.ubuntu-dijon.org/feed/"
+    },
+    {
+        "label": "Ubuntu Lyon - Le Blog",
+        "id": "http://www.ubuntu-lyon.org/?page=News&rss"
+    },
+    {
+        "label": "Ubuntu Sarrebourg - Le Blog",
+        "id": "http://www.ubuntu-sarrebourg.com/feed.php"
+    },
+    {
+        "label": "Webcafé Ubuntu-fr - Le Blog",
+        "id": "http://webcafe-ubuntu.org/feed/"
+    },
+    {
+        "label": "La Revue de Presse sur Ubuntu",
+        "id": "http://ubuntufrenchpressreview.tumblr.com/rss"
+    },
+    {
+        "label": "Nos Vidéos",
+        "id": "http://gdata.youtube.com/feeds/base/users/UbuntuFrOrg/uploads?alt=rss"
+    },
+    {
+        "label": "Reddit Ubuntu-fr",
+        "id": "http://www.reddit.com/r/ubuntufr/.rss"
+    },
+    {
+        "label": "Ubuntu-fr@googleplus.com",
+        "id": "http://gplusrss.com/rss/feed/a620515012a0da1862b050b748c88b2a54e5f6d2cc200"
+    },
+    {
+        "label": "Ubuntu-fr@twitter.com",
+        "id": "http://twitter.com/statuses/user_timeline/25297021.rss"
+    },
+    {
+        "label": "Ubuntuparty@facebook.com",
+        "id": "http://www.facebook.com/feeds/page.php?format=rss20&id=203466293022928"
+    }
+]

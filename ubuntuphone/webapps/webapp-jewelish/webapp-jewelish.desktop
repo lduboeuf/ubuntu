@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=webapp-jewelish
+Comment=webapp for jewelish game
+Type=Application
+Icon=webapp-jewelish.png
+Exec=webapp-container --fullscreen --store-session-cookies --webappUrlPatterns=https?://*famobi* http://play.famobi.com/jewelish %u
+Terminal=false
+X-Ubuntu-Touch=true
+

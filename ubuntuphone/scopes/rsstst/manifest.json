@@ -1,0 +1,15 @@
+{
+    "name": "rsstst.vinzjobard",
+    "description": "YouTube DT",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "YouTube DT",
+    "hooks": {
+        "rsstst": {
+            "scope": "rsstst",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Your Name <yourname@packagedomain>"
+}

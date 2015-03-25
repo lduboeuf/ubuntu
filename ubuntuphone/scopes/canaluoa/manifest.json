@@ -1,0 +1,15 @@
+{
+    "name": "canaluoa.vinzjobard",
+    "description": "Scope for Ubuntu on Air YouTube Channel",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "Ubuntu on Air",
+    "hooks": {
+        "canaluoa": {
+            "scope": "canaluoa",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "Winael <winael@ubuntu-fr.org>"
+}

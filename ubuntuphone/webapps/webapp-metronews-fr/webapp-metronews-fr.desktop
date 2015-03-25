@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=webapp-metronews-fr
+Comment=Non official webapp for metronews.fr website
+Type=Application
+Icon=webapp-metronews-fr.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://*metronews* http://touch.metronews.fr %u
+Terminal=false
+X-Ubuntu-Touch=true
+

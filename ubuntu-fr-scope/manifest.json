@@ -1,0 +1,15 @@
+{
+    "name": "ubuntu-fr-scope.vinzjobard",
+    "description": "Scope non-officiel de la LoCo Ubuntu-fr (Francophone)",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "Ubuntu-fr",
+    "hooks": {
+        "ubuntu-fr-scope": {
+            "scope": "ubuntu-fr-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <winael@ubuntu-fr.org>"
+}

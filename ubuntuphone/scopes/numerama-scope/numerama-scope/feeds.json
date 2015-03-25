@@ -1,0 +1,10 @@
+[
+    {
+        "label": "Actualités",
+        "id": "http://www.numerama.com/rss/news.rss"
+    },
+    {
+        "label": "Téléchargements",
+        "id": "http://www.numerama.com/rss/telechargements.rss"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "name": "webapp-metronews-fr.vinzjobard",
+    "description": "description of webapp-metronews-fr",
+    "architecture": "all",
+    "title": "webapp-metronews-fr",
+    "hooks": {
+        "webapp-metronews-fr": {
+            "apparmor": "webapp-metronews-fr.apparmor",
+            "desktop":  "webapp-metronews-fr.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

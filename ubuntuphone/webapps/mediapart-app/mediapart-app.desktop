@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Mediapart
+Comment=Webapp for frech news website Mediapart
+Type=Application
+Icon=mediapart-app.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://*mediapart* http://mobile.mediapart.fr %u
+Terminal=false
+X-Ubuntu-Touch=true
+

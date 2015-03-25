@@ -1,0 +1,15 @@
+{
+    "name": "netvibes.vinzjobard",
+    "description": "Personnalized Dashboard for the Web",
+    "architecture": "all",
+    "title": "Netvibes",
+    "hooks": {
+        "netvibes-app": {
+            "apparmor": "netvibes-app.apparmor",
+            "desktop": "netvibes-app.desktop"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

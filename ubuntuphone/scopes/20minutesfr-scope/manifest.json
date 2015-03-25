@@ -1,0 +1,15 @@
+{
+    "name": "20minutesfr-scope.vinzjobard",
+    "description": "Scope non-officiel du site 20minutes.fr",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "20 Minutes",
+    "hooks": {
+        "20minutesfr-scope": {
+            "scope": "20minutesfr-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

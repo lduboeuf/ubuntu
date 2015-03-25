@@ -1,0 +1,15 @@
+{
+    "name": "cnrs-journal-scope.vinzjobard",
+    "description": "Scope non-officiel du journal du CNRS",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "CNRS Le journal",
+    "hooks": {
+        "cnrs-journal-scope": {
+            "scope": "cnrs-journal-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

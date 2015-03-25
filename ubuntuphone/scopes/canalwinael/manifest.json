@@ -1,0 +1,15 @@
+{
+    "name": "com.ubuntu.developer.vinzjobard.canalwinael",
+    "description": "Canal Winael",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "Canal Winael",
+    "hooks": {
+        "canalwinael": {
+            "scope": "canalwinael",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

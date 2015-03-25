@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ameli-webapp
+Comment=Non official webapp for ameli, le site de  l'Assurance Maladie (French Sécurité Sociale)
+Type=Application
+Icon=ameli-webapp.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://*ameli* https://ameli.moncompte.mobi %u
+Terminal=false
+X-Ubuntu-Touch=true
+

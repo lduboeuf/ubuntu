@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Pixlr Express
+Comment=Pixlr Express webapp for Ubuntuphone
+Type=Application
+Icon=pixlr-express-app.png
+Exec=webapp-container  --store-session-cookies --webappUrlPatterns=https?://*pixlr* http://apps.pixlr.com/express/ %u
+Terminal=false
+X-Ubuntu-Touch=true
+

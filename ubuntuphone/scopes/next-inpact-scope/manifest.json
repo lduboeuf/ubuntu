@@ -1,0 +1,15 @@
+{
+    "name": "next-inpact-scope.vinzjobard",
+    "description": "Scope non-officiel du site NextInpact.com",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "Next Inpact",
+    "hooks": {
+        "next-inpact-scope": {
+            "scope": "next-inpact-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

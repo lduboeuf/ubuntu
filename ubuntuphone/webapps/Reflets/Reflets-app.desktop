@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Reflets
+Comment=Webapp for the french webzine Reflets.info
+Type=Application
+Icon=Reflets.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://reflets* http://reflets.info/ %u
+Terminal=false
+X-Ubuntu-Touch=true
+

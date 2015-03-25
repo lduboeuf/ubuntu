@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=webapp-framasphere
+Comment=webapp client for framasphere
+Type=Application
+Icon=webapp-framasphere.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://*framasphere* http://framasphere.org/users/sign_in %u
+Terminal=false
+X-Ubuntu-Touch=true
+

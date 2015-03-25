@@ -1,0 +1,15 @@
+{
+    "name": "webdm-app.vinzjobard",
+    "description": "Webapp client to manage Ubuntu Core Snappy device ",
+    "architecture": "all",
+    "title": "Webdm",
+    "hooks": {
+        "webdm-app": {
+            "apparmor": "webdm-app.apparmor",
+            "desktop": "webdm-app.desktop"
+        }
+    },
+    "version": "0.1.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "winaelblog-scope.vinzjobard",
+    "description": "Scope pour le blog de Winael",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "Winael's Blog",
+    "hooks": {
+        "winaelblog-scope": {
+            "scope": "winaelblog-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

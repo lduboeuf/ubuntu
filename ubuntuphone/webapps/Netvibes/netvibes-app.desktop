@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=netvibes-app
+Comment=non-official webapp for Netvibes
+Type=Application
+Icon=Netvibes.png
+Exec=webapp-container --fullscreen --store-session-cookies --webappUrlPatterns=https?://*netvibes* http://mobile.netvibes.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+

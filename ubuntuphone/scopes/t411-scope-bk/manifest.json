@@ -1,0 +1,15 @@
+{
+    "name": "t411-scope.vinzjobard",
+    "description": "Scope non-officiel du site T411.io",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "T411",
+    "hooks": {
+        "t411-scope": {
+            "scope": "t411-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=gleeden-webapp
+Comment=webapp for Gleeden
+Type=Application
+Icon=gleeden-webapp.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://*gleeden* http://m.gleeden.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+

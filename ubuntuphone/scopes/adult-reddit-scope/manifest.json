@@ -1,0 +1,15 @@
+{
+    "name": "adult-reddit-scope.vinzjobard",
+    "description": "Adult Front Page of the Internet",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "Adult Reddit",
+    "hooks": {
+        "adult-reddit-scope": {
+            "scope": "adult-reddit-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

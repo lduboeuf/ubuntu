@@ -1,0 +1,15 @@
+{
+    "name": "bonjour-mesdames-scope.vinzjobard",
+    "description": "Scope des bonjour-madame-like",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "Bonjour Mesdames !",
+    "hooks": {
+        "bonjour-mesdames-scope": {
+            "scope": "bonjour-mesdames-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "reflets-info.vinzjobard",
+    "description": "Scopes for french news website Reflets.info",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "Reflets",
+    "hooks": {
+        "reflets-info": {
+            "scope": "reflets-info",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

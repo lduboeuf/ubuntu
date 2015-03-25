@@ -1,0 +1,15 @@
+{
+    "name": "metronews-fr-scope.vinzjobard",
+    "description": "Scope non-officiel du site metronews.fr",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "MetroNews",
+    "hooks": {
+        "metronews-fr-scope": {
+            "scope": "metronews-fr-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

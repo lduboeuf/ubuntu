@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=webapp-diasp-eu
+Comment=webapp client for diaspora* node diasp.eu
+Type=Application
+Icon=webapp-diasp-eu.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://*diasp* http://mobile.diasp.eu %u
+Terminal=false
+X-Ubuntu-Touch=true
+

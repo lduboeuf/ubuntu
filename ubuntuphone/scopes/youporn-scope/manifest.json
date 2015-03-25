@@ -1,0 +1,15 @@
+{
+    "name": "com.ubuntu.developer.vinzjobard.youporn-scope",
+    "description": "Non official scope for YouPorn",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "YouPorn",
+    "hooks": {
+        "youporn-scope": {
+            "scope": "youporn-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

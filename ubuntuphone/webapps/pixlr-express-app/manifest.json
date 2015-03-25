@@ -1,0 +1,15 @@
+{
+    "name": "pixlr-express-app.vinzjobard",
+    "description": "Pixlr Express webapp for Ubuntuphone",
+    "architecture": "all",
+    "title": "Pixlr Express",
+    "hooks": {
+        "pixlr-express-app": {
+            "apparmor": "pixlr-express-app.apparmor",
+            "desktop": "pixlr-express-app.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

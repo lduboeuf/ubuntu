@@ -1,0 +1,17 @@
+{
+    "maxResults": "20",
+    "playlists": [
+        {
+            "id": "PLmPU0LDeGZZ7K1RH0LEncyjY2ilnhaxRy",
+            "reminder": "Arcade Sushi 'Meets Metal' Episodes"
+        },
+        {
+            "id": "PLmPU0LDeGZZ6BkX88W5A_gaH5-z1rKIud",
+            "reminder": "Holidays Meet Metal"
+        },
+        {
+            "id": "PLmPU0LDeGZZ7g0UXZQjkGR62VCfVnmYqk",
+            "reminder": "Classic Pop Meets Metal"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "gleeden-webapp.vinzjobard",
+    "description": "description of gleeden-webapp",
+    "architecture": "all",
+    "title": "gleeden-webapp",
+    "hooks": {
+        "gleeden-webapp": {
+            "apparmor": "gleeden-webapp.apparmor",
+            "desktop":  "gleeden-webapp.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

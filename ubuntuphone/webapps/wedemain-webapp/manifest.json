@@ -1,0 +1,15 @@
+{
+    "name": "wedemain-webapp.vinzjobard",
+    "description": "description of wedemain-webapp",
+    "architecture": "all",
+    "title": "wedemain-webapp",
+    "hooks": {
+        "wedemain-webapp": {
+            "apparmor": "wedemain-webapp.apparmor",
+            "desktop": "wedemain-webapp.desktop"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

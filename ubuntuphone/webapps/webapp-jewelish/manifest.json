@@ -1,0 +1,17 @@
+{
+    "name": "webapp-jewelish.vinzjobard",
+    "description": "description of webapp-jewelish",
+    "architecture": "all",
+    "title": "webapp-jewelish",
+    "hooks": {
+        "webapp-jewelish": {
+            "apparmor": "webapp-jewelish.apparmor",
+            "desktop":  "webapp-jewelish.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+
