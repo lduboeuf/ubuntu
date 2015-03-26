@@ -8,7 +8,11 @@ Si créer des scopes complexe n'est pas à la porter de n'importe qui, on peut, 
 Nous allons prendre ici l'exemple de la création d'un scope agrégeant les flux RSS de [Métro News](http://http://www.metronews.fr "MetroNews.fr"), les sites d'actualités étant parfaitement adaptés pour l'exercice. Cela aussi montrera que contrairement au monde iOS et Androïd, il n'est pas nécessaire de connaitre la programmation pour proposer une _« application »_ pour les sites d'actualités, un scope pouvant souvent faire l'affaire
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 1. Installation de `scopecreator` de Chris Wayne
+=======
+## <a name="1"></a>1. Installation de `scopecreator` de Chris Wayne
+>>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
 =======
 ## <a name="1"></a>1. Installation de `scopecreator` de Chris Wayne
 >>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
@@ -22,7 +26,11 @@ Tout d'abord nous allons installer l'outils `scopecreator` à partir de l'archiv
 **ATTENTION : Comme toujours, l'installation de paquets provenant d'un PPA peut entrainer des erreurs sur votre système. Cette opération est à faire à vos risques et périls.**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 2. Création d'un compte sur le portail des developpeurs Ubuntu
+=======
+## <a name="2"></a>2. Création d'un compte sur le portail des developpeurs Ubuntu
+>>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
 =======
 ## <a name="2"></a>2. Création d'un compte sur le portail des developpeurs Ubuntu
 >>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
@@ -34,17 +42,23 @@ Lors de la création de votre compte, qui est lié à votre compte Ubuntu One, i
 Pour ma part, le mien est, sans surprise, `vinzjobard`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 3. Les ressources
 
 Nous allons préparer les ressources qui nous permettront de faire l'habillage de ce scope, pour le rendre conforme ou presque avec la chartre du site
 
 ### 3.1. Les élements graphiques
 =======
+=======
+>>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
 ## <a name="3"></a>3. Les ressources
 
 Nous allons préparer les ressources qui nous permettront de faire l'habillage de ce scope, pour le rendre conforme ou presque avec la chartre du site
 
 ### <a name="31"></a>3.1. Les élements graphiques
+<<<<<<< HEAD
+>>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
+=======
 >>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
 
 Le logo du site se trouve [ici](http://www.metronews.fr/locale/fr/templates/img/global/metronews_logo_341x72.png "Logo Metronews")
@@ -89,9 +103,15 @@ Rubrique                 | Flux RSS
 L'information en continu | http://www.metronews.fr/rss.xml
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 4. Création du scope `metronews-fr-scope`
 
 ### 4.1. Génération du scope 
+=======
+## <a name="4"></a>4. Création du scope `metronews-fr-scope`
+
+### <a name="41"></a>4.1. Génération du scope 
+>>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
 =======
 ## <a name="4"></a>4. Création du scope `metronews-fr-scope`
 
@@ -244,7 +264,11 @@ Nous aurons donc le fichier `metronews-fr-scope/feeds.json` suivant après édit
     ]
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 4.5. Génération du package
+=======
+### <a name="45"></a>4.5. Génération du package
+>>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
 =======
 ### <a name="45"></a>4.5. Génération du package
 >>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
@@ -269,7 +293,11 @@ Voici un aperçu de notre scope :
 Il est temps de publier notre scope
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <a name="45"></a>4.5. Publication du scope
+=======
+### <a name="46"></a>4.6. Publication du scope
+>>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
 =======
 ### <a name="46"></a>4.6. Publication du scope
 >>>>>>> 76305113a960354127782f73ad7475feebbaa6b2
