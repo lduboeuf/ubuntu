@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Webchemy
+Comment=Webapp client for Webchemy
+Type=Application
+Icon=Webchemy.png
+Exec=webapp-container --fullscreen --maximized --store-session-cookies --webappUrlPatterns=https?://*webchemy* http://webchemy.org %u
+Terminal=false
+X-Ubuntu-Touch=true
+

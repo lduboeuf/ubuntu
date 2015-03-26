@@ -1,0 +1,15 @@
+{
+    "name": "lesjours.vinzjobard",
+    "description": "Facing the torrent of ephemeral information, Les Jours is the new online media who digs his obsessions in the heart of the news and do not let them. Les Jours defends a singular journalism, curious, tenacious, led by pickaxe heads.     //     Face au torrent des infos éphemères, Les Jours, c'est le nouveau média en ligne qui creuse ses obsessions au cœur de l'actualité et de les lâche pas. Les Jours défendent un journalisme singulier, curieux, tenace, emmené par des têtes de pioche.",
+    "architecture": "all",
+    "title": "Les Jours",
+    "hooks": {
+        "LesJours": {
+            "apparmor": "LesJours.apparmor",
+            "desktop": "LesJours.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

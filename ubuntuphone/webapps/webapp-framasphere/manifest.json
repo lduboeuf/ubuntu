@@ -1,0 +1,17 @@
+{
+    "name": "webapp-framasphere.vinzjobard",
+    "description": "description of webapp-framasphere",
+    "architecture": "all",
+    "title": "webapp-framasphere",
+    "hooks": {
+        "webapp-framasphere": {
+            "apparmor": "webapp-framasphere.apparmor",
+            "desktop":  "webapp-framasphere.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

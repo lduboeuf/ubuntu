@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=viadeo-app
+Comment=Webapp client for professional social network Viadeo
+Type=Application
+Icon=viadeo-app.png
+Exec=webapp-container  --store-session-cookies --webappUrlPatterns=https?://*viadeo* http://m.viadeo.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+

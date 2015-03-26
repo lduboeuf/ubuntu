@@ -1,0 +1,15 @@
+{
+    "name": "googleplaybooks.vinzjobard",
+    "description": "Read your favorite books with the Google Play Books webapp for Ubuntuphone",
+    "architecture": "all",
+    "title": "Google Play Books",
+    "hooks": {
+        "GooglePlayBooks": {
+            "apparmor": "GooglePlayBooks.apparmor",
+            "desktop": "GooglePlayBooks.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

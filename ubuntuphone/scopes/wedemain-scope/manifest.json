@@ -1,0 +1,15 @@
+{
+    "name": "com.ubuntu.developer.vinzjobard.wedemain-scope",
+    "description": "Scope pour le site wedemain.fr",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "We Demain",
+    "hooks": {
+        "wedemain-scope": {
+            "scope": "wedemain-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

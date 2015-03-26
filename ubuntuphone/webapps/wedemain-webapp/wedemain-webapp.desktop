@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=wedemain-webapp
+Comment=webapp for the magazine wedemain
+Type=Application
+Icon=wedemain-webapp.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://*wedemain* http://m.wedemain.fr %u
+Terminal=false
+X-Ubuntu-Touch=true
+

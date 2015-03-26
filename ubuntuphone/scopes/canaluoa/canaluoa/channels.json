@@ -1,0 +1,43 @@
+{
+    "maxResults": "20",
+    "channels": [
+        {
+            "id": "UCWUDCz-Q0m4qK7lkK4CevQA",
+            "reminder": "Channel: Ubuntu Contributor Channel"
+        },
+        {
+            "id": "UCJ65UG_WgFa_O_odbiBWZoA",
+            "reminder": "Channel: Celebrateubuntu"
+        }
+    ],
+    "playlists": [
+        {
+            "id": "PL-qBHd6_LXWaytjEA5obaZz1syWcUGY0Q",
+            "reminder": "Q&As"
+        },
+        {
+            "id": "PL-qBHd6_LXWYSvPX1uyD5ADBMhl41zbcw",
+            "reminder": "Scopes Workshops"
+        },
+        {
+            "id": "PL-qBHd6_LXWaLdzcsCIQ687zkLwCti6eR",
+            "reminder": "vUDS/UOS"
+        },
+        {
+            "id": "PL-qBHd6_LXWaj04b5RTs3as6tkHKNr0fd",
+            "reminder": "Ubuntu Engineering Live!"
+        },
+        {
+            "id": "PL-qBHd6_LXWbQ9Odh8zheKXKyTgzT3CwF",
+            "reminder": "Ubuntu Development Hangouts"
+        },
+        {
+            "id": "PL-qBHd6_LXWamovTR0F-TxbmW2gVwuje5",
+            "reminder": "Classroom"
+        },
+        {
+            "id": "PL-qBHd6_LXWYuRKPBLAhCUE_NPZKVny4_",
+            "reminder": "Charm Schools"
+        }
+    ]
+}

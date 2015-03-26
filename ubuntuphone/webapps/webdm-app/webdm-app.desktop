@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Webdm
+Comment=Webapp client to manage Ubuntu Core Snappy device
+Type=Application
+Icon=webdm-app.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://*webdm* http://webdm.local:4200 %u
+Terminal=false
+X-Ubuntu-Touch=true
+

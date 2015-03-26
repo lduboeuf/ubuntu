@@ -1,0 +1,45 @@
+[
+    {
+        "label": "Derniers uploads",
+        "id": "http://t411.io/rss/"
+    },
+    {
+        "label": "Torrents Rapides",
+        "id": "http://t411.io/rsshot/"
+    {
+        "label": "Audio",
+        "id": "http://t411.io/rss/?cat=395"
+    },
+    {
+        "label": "eBook",
+        "id": "http://t411.io/rss/?cat404"
+    },
+    {
+        "label": "Emulation",
+        "id": "http://t411.io/rss/?cat340"
+    },
+    {
+        "label": "Jeu Vidéo",
+        "id": "http://t411.io/rss/?cat=624"
+    },
+    {
+        "label": "GPS",
+        "id": "http://t411.io/rss/?cat=392"
+    },
+    {
+        "label": "Application",
+        "id": "http://t411.io/rss/?cat=233"
+    },
+    {
+        "label": "Film/Vidéo",
+        "id": "http://t411.io/rss/?cat=210"
+    },
+    {
+        "label": "xXx",
+        "id": "http://t411.io/rss/?cat=456"
+    },
+    {
+        "label": "Animation",
+        "id": "http://t411.io/rss/?cat=640"
+    },
+]

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=CurrencyConverter-app
+Exec=qmlscene $@ Main.qml
+Icon=CurrencyConverter.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

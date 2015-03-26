@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=LesJours
+Comment=Webapp client for french news website lesjours.fr
+Type=Application
+Icon=lesjours.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://*lesjours* http://www.lesjours.fr %u
+Terminal=false
+X-Ubuntu-Touch=true
+

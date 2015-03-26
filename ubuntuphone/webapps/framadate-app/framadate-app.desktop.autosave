@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Framadate
+Comment=Webapp client for the Framadate service, a free doodle-like app from Framasoft
+Type=Application
+Icon=framadate-app.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://m.framadate-app.com/* http://m.framadate-app.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+

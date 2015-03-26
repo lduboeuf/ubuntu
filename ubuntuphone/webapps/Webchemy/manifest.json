@@ -1,0 +1,15 @@
+{
+    "name": "webchemy.vinzjobard",
+    "description": "Webchemy is an attempt to recreate parts of Alchemy on the web, with support for mobile platforms like the Ubuntuphone",
+    "architecture": "all",
+    "title": "Webchemy",
+    "hooks": {
+        "Webchemy": {
+            "apparmor": "Webchemy.apparmor",
+            "desktop": "Webchemy.desktop"
+        }
+    },
+    "version": "0.1.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

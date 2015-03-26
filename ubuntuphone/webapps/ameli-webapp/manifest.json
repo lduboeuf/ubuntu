@@ -1,0 +1,17 @@
+{
+    "name": "ameli-webapp.vinzjobard",
+    "description": "description of ameli-webapp",
+    "architecture": "all",
+    "title": "ameli-webapp",
+    "hooks": {
+        "ameli-webapp": {
+            "apparmor": "ameli-webapp.apparmor",
+            "desktop":  "ameli-webapp.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

@@ -1,0 +1,15 @@
+{
+    "name": "photofunia.vinzjobard",
+    "description": "PhotoFunia is an innovative online picture editing tool that let's you produce animated and fun images instantly with ease, using your own photos and a bit of imagination and silliness ! Even if you don't have a picture at hand, there are many text effects that you can have fun with.",
+    "architecture": "all",
+    "title": "PhotoFunia",
+    "hooks": {
+        "PhotoFunia": {
+            "apparmor": "PhotoFunia.apparmor",
+            "desktop": "PhotoFunia.desktop"
+        }
+    },
+    "version": "0.1.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

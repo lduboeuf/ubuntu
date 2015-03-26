@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=webapp-reflets
+Comment=Webapp client for the french news media reflets.info
+Type=Application
+Icon=webapp-reflets.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://*reflets* http://reflets.info %u
+Terminal=false
+X-Ubuntu-Touch=true
+

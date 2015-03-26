@@ -1,0 +1,15 @@
+{
+    "name": "soundtrap-app.vinzjobard",
+    "description": "Soundtrap Webapp allows you to record, edit, collaborate and share music on Ubuntuphone",
+    "architecture": "all",
+    "title": "soundtrap",
+    "hooks": {
+        "soundtrap-app": {
+            "apparmor": "soundtrap-app.apparmor",
+            "desktop": "soundtrap-app.desktop"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

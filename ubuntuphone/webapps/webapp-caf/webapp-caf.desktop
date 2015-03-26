@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=webapp-caf
+Comment=Webapp non officielle de la Caisse d'Allocations Familiales (CAF)
+Type=Application
+Icon=webapp-caf.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://*caf* https://wwwd.caf.fr/wps/portal/mobile/login %u
+Terminal=false
+X-Ubuntu-Touch=true
+

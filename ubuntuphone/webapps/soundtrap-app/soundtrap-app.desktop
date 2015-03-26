@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Soundtrap
+Comment=Soundtrap Webapp allows you to record, edit, collaborate and share music on the Ubuntuphone
+Type=Application
+Icon=soundtrap-app.png
+Exec=webapp-container --user-agent-string='Mozilla/5.0 (Linux; Android 5.0; Nexus 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36' --store-session-cookies --webappUrlPatterns=https?://*soundtrap* http://www.soundtrap.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+

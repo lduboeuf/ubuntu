@@ -1,0 +1,46 @@
+[
+    {
+        "label": "L'information en continu",
+        "id": "http://flux.20minutes.fr/c/32497/f/479493/index.rss"
+    },
+    {
+        "label": "Monde",
+        "id": "http://flux.20minutes.fr/c/32497/f/568094/index.rss"
+    },
+    {
+        "label": "France",
+        "id": "http://flux.20minutes.fr/c/32497/f/568093/index.rss"
+    },
+    {
+        "label": "Politique",
+        "id": "http://flux.20minutes.fr/c/32497/f/568098/index.rss"
+    },
+    {
+        "label": "Economie",
+        "id": "http://flux.20minutes.fr/c/32497/f/568097/index.rss"
+    },
+    {
+        "label": "Santé",
+        "id": "http://flux.20minutes.fr/c/32497/f/568115/index.rss"
+    },
+    {
+        "label": "Sciences",
+        "id": "http://flux.20minutes.fr/c/32497/f/568116/index.rss"
+    },
+    {
+        "label": "Emploi",
+        "id": "http://flux.20minutes.fr/c/32497/f/568117/index.rss"
+    },
+    {
+        "label": "Pratique",
+        "id": "http://flux.20minutes.fr/c/32497/f/568118/index.rss"
+    },
+    {
+        "label": "Culture",
+        "id": "http://flux.20minutes.fr/c/32497/f/568099/index.rss"
+    },
+    {
+        "label": "Week-End",
+        "id": "http://flux.20minutes.fr/c/32497/f/568122/index.rss"
+    }
+]

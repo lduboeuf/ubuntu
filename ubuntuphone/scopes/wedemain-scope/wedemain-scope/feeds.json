@@ -1,0 +1,30 @@
+[
+    {
+        "label": "Tout",
+        "id": "http://www.wedemain.fr/xml/syndication.rss"
+    },
+    {
+        "label": "Décoder",
+        "id": "http://www.wedemain.fr/xml/syndication.rss?r=397554"
+    },
+    {
+        "label": "Cultures",
+        "id": "http://www.wedemain.fr/xml/syndication.rss?r=397774"
+    },
+    {
+        "label": "Collaboratif",
+        "id": "http://www.wedemain.fr/xml/syndication.rss?r=397775"
+    },
+    {
+        "label": "Planète",
+        "id": "http://www.wedemain.fr/xml/syndication.rss?r=397776"
+    },
+    {
+        "label": "Tech-Sciences",
+        "id": "http://www.wedemain.fr/xml/syndication.rss?r=433941"
+    },
+    {
+        "label": "WE +",
+        "id": "http://www.wedemain.fr/xml/syndication.rss?r=614214"
+    }
+]

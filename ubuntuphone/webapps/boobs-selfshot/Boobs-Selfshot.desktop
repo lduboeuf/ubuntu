@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Boobs-Selfshot
+Comment=Webapp client for boobs-selfshot.tumblr.com
+Type=Application
+Icon=boobs-selfshot.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://*boobs-selfshot* http://boobs-selfshot.tumblr.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+

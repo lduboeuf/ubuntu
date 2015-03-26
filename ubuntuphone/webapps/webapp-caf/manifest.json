@@ -1,0 +1,17 @@
+{
+    "name": "webapp-caf.vinzjobard",
+    "description": "description of webapp-caf",
+    "architecture": "all",
+    "title": "webapp-caf",
+    "hooks": {
+        "webapp-caf": {
+            "apparmor": "webapp-caf.apparmor",
+            "desktop":  "webapp-caf.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

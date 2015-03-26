@@ -1,0 +1,15 @@
+{
+    "name": "mediapart-app.vinzjobard",
+    "description": "Webapp for the french news website Mediapart",
+    "architecture": "all",
+    "title": "Mediapart",
+    "hooks": {
+        "mediapart-app": {
+            "apparmor": "mediapart-app.apparmor",
+            "desktop": "mediapart-app.desktop"
+        }
+    },
+    "version": "0.1.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

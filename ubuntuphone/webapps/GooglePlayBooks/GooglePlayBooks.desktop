@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Google Play Books
+Comment=Webapps client for Google Play Books
+Type=Application
+Icon=GooglePlayBooks.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://*google* http://books.google.com/ebooks/app %u
+Terminal=false
+X-Ubuntu-Touch=true
+

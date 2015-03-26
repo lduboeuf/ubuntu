@@ -1,0 +1,15 @@
+{
+    "name": "ohmyboobs.vinzjobard",
+    "description": "In the boobs we trust.",
+    "architecture": "all",
+    "title": "ohmyboobs",
+    "hooks": {
+        "OhMyBoobs": {
+            "apparmor": "OhMyBoobs.apparmor",
+            "desktop": "OhMyBoobs.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

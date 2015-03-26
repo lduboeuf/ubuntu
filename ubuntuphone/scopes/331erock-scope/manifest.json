@@ -1,0 +1,15 @@
+{
+    "name": "331erock-scope.vinzjobard",
+    "description": "Scope for 331Erock's YouTube Channel",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "331Erock YouTube Channel",
+    "hooks": {
+        "331erock-scope": {
+            "scope": "331erock-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

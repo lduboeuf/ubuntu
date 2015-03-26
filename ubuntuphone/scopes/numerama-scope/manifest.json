@@ -1,0 +1,15 @@
+{
+    "name": "numerama-scope.vinzjobard",
+    "description": "Scope non-officiel du site numerama.com",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "Numerama",
+    "hooks": {
+        "numerama-scope": {
+            "scope": "numerama-scope",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>"
+}

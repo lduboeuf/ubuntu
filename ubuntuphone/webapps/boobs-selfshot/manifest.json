@@ -1,0 +1,15 @@
+{
+    "name": "boobs-selfshot.vinzjobard",
+    "description": "Girl collection of boobs and tits selfies",
+    "architecture": "all",
+    "title": "Boobs-Selfshot",
+    "hooks": {
+        "Boobs-Selfshot": {
+            "apparmor": "Boobs-Selfshot.apparmor",
+            "desktop": "Boobs-Selfshot.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "viadeo-app.vinzjobard",
+    "description": "Webapp client for professional social network Viadeo",
+    "architecture": "all",
+    "title": "viadeo-app",
+    "hooks": {
+        "viadeo-app": {
+            "apparmor": "viadeo-app.apparmor",
+            "desktop": "viadeo-app.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

@@ -1,0 +1,78 @@
+[
+    {
+        "label": "/r/adultgifs",
+        "id": "http://www.reddit.com/r/adultgifs/.rss"
+    },
+    {
+        "label": "/r/AmateurArchives",
+        "id": "http://www.reddit.com/r/AmateurArchives/.rss"
+    },
+    {
+        "label": "/r/asstastic",
+        "id": "http://www.reddit.com/r/Asstastic/.rss"
+    },
+    {
+        "label": "/r/BBW",
+        "id": "http://www.reddit.com/r/BBW/.rss"
+    },
+    {
+        "label": "/r/BBWGW",
+        "id": "http://www.reddit.com/r/BBWGW/.rss"
+    },
+    {
+        "label": "/r/bigasses",
+        "id": "http://www.reddit.com/r/bigasses/.rss"
+    },
+    {
+        "label": "/r/boobbounce",
+        "id": "http://www.reddit.com/r/boobbounce/.rss"
+    },
+    {
+        "label": "/r/boobgifs",
+        "id": "http://www.reddit.com/r/boobgifs/.rss"
+    },
+    {
+        "label": "/r/gonewild",
+        "id": "www.reddit.com/r/gonewild/.rss"
+    },
+    {
+        "label": "/r/boobbounce",
+        "id": "www.reddit.com/r/boobbounce/.rss"
+    },
+    {
+        "label": "Business and Technology",
+        "id": "http://www.vox.com/rss/business_and_technology/index.xml"
+    },
+    {
+        "label": "Culture",
+        "id": "http://www.vox.com/rss/culture/index.xml"
+    },
+    {
+        "label": "Policy and Politics",
+        "id": "http://www.vox.com/rss/policy_and_politics/index.xml"
+    },
+    {
+        "label": "Life",
+        "id": "http://www.vox.com/rss/life/index.xml"
+    },
+    {
+        "label": "Videos",
+        "id": "http://www.vox.com/rss/videos/index.xml"
+    },
+    {
+        "label": "Maps",
+        "id": "http://www.vox.com/rss/maps/index.xml"
+    },
+    {
+        "label": "World and Defense",
+        "id": "http://www.vox.com/rss/world_and_defense/index.xml"
+    },
+    {
+        "label": "Justice and Law",
+        "id": "http://www.vox.com/rss/justice_and_law/index.xml"
+    },
+    {
+        "label": "Science of Everyday Life",
+        "id": "http://www.vox.com/rss/life-science/index.xml"
+    }
+]

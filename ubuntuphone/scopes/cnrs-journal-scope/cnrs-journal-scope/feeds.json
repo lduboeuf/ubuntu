@@ -1,0 +1,30 @@
+[
+    {
+        "label": "Tout",
+        "id": "https://lejournal.cnrs.fr/rss"
+    },
+    {
+        "label": "Vivant",
+        "id": "https://lejournal.cnrs.fr/rss/4"
+    },
+    {
+        "label": "Matière",
+        "id": "https://lejournal.cnrs.fr/rss/3"
+    },
+    {
+        "label": "Sociétés",
+        "id": "https://lejournal.cnrs.fr/rss/5"
+    },
+    {
+        "label": "Univers",
+        "id": "https://lejournal.cnrs.fr/rss/6"
+    },
+    {
+        "label": "Terre",
+        "id": "https://lejournal.cnrs.fr/rss/1"
+    },
+    {
+        "label": "Numérique",
+        "id": "https://lejournal.cnrs.fr/rss/2"
+    }
+]

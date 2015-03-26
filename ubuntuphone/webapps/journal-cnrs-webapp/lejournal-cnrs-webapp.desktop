@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=lejournal-cnrs-webapp
+Comment=webapp for « Le journal du CNRS »
+Type=Application
+Icon=journal-cnrs-webapp.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://*lejournal.cnrs* https://lejournal.cnrs.fr %u
+Terminal=false
+X-Ubuntu-Touch=true
+

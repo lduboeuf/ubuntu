@@ -1,0 +1,17 @@
+{
+    "name": "webapp-diasp-eu.vinzjobard",
+    "description": "description of webapp-diasp-eu",
+    "architecture": "all",
+    "title": "webapp-diasp-eu",
+    "hooks": {
+        "webapp-diasp-eu": {
+            "apparmor": "webapp-diasp-eu.apparmor",
+            "desktop":  "webapp-diasp-eu.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

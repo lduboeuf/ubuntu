@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=PhotoFunia
+Comment=Webapp client for PhotoFunia.com
+Type=Application
+Icon=PhotoFunia.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://*photofunia* http://photofunia.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+

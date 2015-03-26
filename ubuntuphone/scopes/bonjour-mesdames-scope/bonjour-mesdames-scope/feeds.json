@@ -1,0 +1,58 @@
+[
+    {
+        "label": "Bonjour ma belle",
+        "id": "http://feeds.feedburner.com/bonjourmabelle?format=xml"
+    },
+    {
+        "label": "Bonjour petit cul",
+        "id": "http://bonjourpetitcul.tumblr.com/rss"
+    },
+    {
+        "label": "Daily Demoiselle",
+        "id": "http://feeds.feedburner.com/DailyDemoiselle"
+    },
+    {
+        "label": "Bonjour Madame",
+        "id": "http://feeds.feedburner.com/BonjourMadame?format=xml"
+    },
+    {
+        "label": "Hot Indian Girl",
+        "id": "http://hotindiangirl.tumblr.com/rss"
+    },
+    {
+        "label": "Female Formz",
+        "id": "http://femaleformz.tumblr.com/rss"
+    },
+    {
+        "label": "Culture",
+        "id": "http://www.vox.com/rss/culture/index.xml"
+    },
+    {
+        "label": "Policy and Politics",
+        "id": "http://www.vox.com/rss/policy_and_politics/index.xml"
+    },
+    {
+        "label": "Life",
+        "id": "http://www.vox.com/rss/life/index.xml"
+    },
+    {
+        "label": "Videos",
+        "id": "http://www.vox.com/rss/videos/index.xml"
+    },
+    {
+        "label": "Maps",
+        "id": "http://www.vox.com/rss/maps/index.xml"
+    },
+    {
+        "label": "World and Defense",
+        "id": "http://www.vox.com/rss/world_and_defense/index.xml"
+    },
+    {
+        "label": "Justice and Law",
+        "id": "http://www.vox.com/rss/justice_and_law/index.xml"
+    },
+    {
+        "label": "Science of Everyday Life",
+        "id": "http://www.vox.com/rss/life-science/index.xml"
+    }
+]

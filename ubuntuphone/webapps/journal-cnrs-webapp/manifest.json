@@ -1,0 +1,17 @@
+{
+    "name": "journal-cnrs-webapp.vinzjobard",
+    "description": "description of journal-cnrs-webapp",
+    "architecture": "all",
+    "title": "journal-cnrs-webapp",
+    "hooks": {
+        "lejournal-cnrs-webapp": {
+            "apparmor": "lejournal-cnrs-webapp.apparmor",
+            "desktop":  "lejournal-cnrs-webapp.desktop"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=webapp-epic-citadel
+Comment=HTML5 webapp for epic-citadel
+Type=Application
+Icon=webapp-epic-citadel.png
+Exec=webapp-container --fullscreen --store-session-cookies --webappUrlPatterns=https?://*unrealengine* http://www.unrealengine.com/html5/ %u
+Terminal=false
+X-Ubuntu-Touch=true
+

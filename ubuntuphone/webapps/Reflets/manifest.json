@@ -1,0 +1,15 @@
+{
+    "name": "reflets.vinzjobard",
+    "description": "Webapp for the french webzine Reflets.info",
+    "architecture": "all",
+    "title": "Reflets",
+    "hooks": {
+        "Reflets-app": {
+            "apparmor": "Reflets-app.apparmor",
+            "desktop": "Reflets-app.desktop"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}

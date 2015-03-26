@@ -1,0 +1,26 @@
+[
+    {
+        "label": "Actualités",
+        "id": "http://www.nextinpact.com/rss/news.xml"
+    },
+    {
+        "label": "Blog",
+        "id": "http://www.nextinpact.com/rss/blog.xml"
+    },
+    {
+        "label": "Bons plans",
+        "id": "http://www.nextinpact.com/rss/bonsplans.xml"
+    },
+    {
+        "label": "Dossiers",
+        "id": "http://www.nextinpact.com/rss/dossiers.xml"
+    },
+    {
+        "label": "Offres d'emploi",
+        "id": "http://www.nextinpact.com/rss/emplois.xml"
+    },
+    {
+        "label": "Tests",
+        "id": "http://www.nextinpact.com/rss/tests.xml"
+    }
+]

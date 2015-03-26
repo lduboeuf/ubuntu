@@ -1,0 +1,17 @@
+{
+    "name": "currencyconverter.vinzjobard",
+    "description": "description of CurrencyConverter",
+    "architecture": "all",
+    "title": "CurrencyConverter",
+    "hooks": {
+        "CurrencyConverter-app": {
+            "apparmor": "CurrencyConverter-app.apparmor",
+            "desktop":  "CurrencyConverter-app.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzkonard@mail.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

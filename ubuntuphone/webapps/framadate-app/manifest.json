@@ -1,0 +1,17 @@
+{
+    "name": "framadate-app.vinzjobard",
+    "description": "Webapp client for Framadate service, a free doodle-like application by Framasoft",
+    "architecture": "all",
+    "title": "framadate-app",
+    "hooks": {
+        "framadate-app": {
+            "apparmor": "framadate-app.apparmor",
+            "desktop":  "framadate-app.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

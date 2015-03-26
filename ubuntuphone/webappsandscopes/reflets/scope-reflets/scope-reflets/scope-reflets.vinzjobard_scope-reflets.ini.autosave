@@ -1,0 +1,12 @@
+[ScopeConfig]
+DisplayName=Reflets.info
+Description=Scope for the french news media reflets.info
+#Art=screenshot.png
+Author=Winael
+Icon=images/icon.png
+SearchHint=Rechercher dans reflets.info
+
+[Appearance]
+PageHeader.Logo=images/logo.png
+PageHeader.Background=color:///#ffffff
+PageHeader.DividerColor=#ffeb00
