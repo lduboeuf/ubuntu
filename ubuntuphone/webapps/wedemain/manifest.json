@@ -1,0 +1,14 @@
+{
+    "description": "Webapp client for french media WeDemain",
+    "framework": "ubuntu-sdk-14.04",
+    "hooks": {
+        "wedemain": {
+        "apparmor": "app.json",
+        "desktop": "app.desktop"
+    }
+},
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+	"name": "wedemain",
+    "title": "We Demain",
+    "version": "0.1"
+}
