@@ -9,7 +9,7 @@ import "../config.js" as Conf
 MainView {
     objectName: "mainView"
 
-    applicationName: "wedemain"
+    applicationName: "wedemain.vinzjobard"
 
     useDeprecatedToolbar: false
     anchorToKeyboard: true
