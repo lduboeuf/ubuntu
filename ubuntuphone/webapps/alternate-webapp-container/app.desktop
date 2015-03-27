@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=We Demain
+Name=Google Plus
 Type=Application
 Icon=icon.png
 Exec=qmlscene $@ qml/Main.qml
