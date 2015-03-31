@@ -1,0 +1,14 @@
+{
+    "description": "A webapp client for AppsFuel store",
+    "framework": "ubuntu-sdk-14.04",
+    "hooks": {
+        "appsfuel": {
+        "apparmor": "app.json",
+        "desktop": "app.desktop"
+    }
+},
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+	"name": "appsfuel.vinzjobard",
+    "title": "AppsFuel",
+    "version": "0.1"
+}

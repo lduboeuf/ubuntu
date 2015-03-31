@@ -1,0 +1,16 @@
+# config.cfg
+
+
+export namespace="vinzjobard"
+
+export app_name="mediapart"
+export app_title="Médiapart"
+export app_url="http://m.mediapart.fr"
+export app_description="A webapp client for french media Médiapart"
+export app_UA="Mozilla/5.0 (Linux; Android 5.0; Nexus 5) AppleWebkit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36"
+export app_version="0.1"
+
+export maintainer_name="Winael"
+export maintainer_email="vinzjobard@gmail.com"
+
+export icon_path="$HOME/ubuntu/ubuntuphone/webapps/webapp-metronews-fr/webapp-metronews-fr.png"

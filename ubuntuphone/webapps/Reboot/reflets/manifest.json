@@ -1,0 +1,14 @@
+{
+    "description": "A webapp client for french media reflets.info",
+    "framework": "ubuntu-sdk-14.04",
+    "hooks": {
+        "reflets": {
+        "apparmor": "app.json",
+        "desktop": "app.desktop"
+    }
+},
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+	"name": "reflets.vinzjobard",
+    "title": "Reflets",
+    "version": "0.1"
+}

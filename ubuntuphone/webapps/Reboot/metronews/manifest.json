@@ -1,0 +1,14 @@
+{
+    "description": "A webapp client for french media MétroNews",
+    "framework": "ubuntu-sdk-14.04",
+    "hooks": {
+        "metronews": {
+        "apparmor": "app.json",
+        "desktop": "app.desktop"
+    }
+},
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+	"name": "metronews.vinzjobard",
+    "title": "MétroNews",
+    "version": "0.2"
+}

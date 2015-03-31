@@ -1,0 +1,14 @@
+{
+    "description": "A webapp client for the Clay.io store",
+    "framework": "ubuntu-sdk-14.04",
+    "hooks": {
+        "clayio": {
+        "apparmor": "app.json",
+        "desktop": "app.desktop"
+    }
+},
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+	"name": "clayio.vinzjobard",
+    "title": "Clay.io",
+    "version": "0.1"
+}

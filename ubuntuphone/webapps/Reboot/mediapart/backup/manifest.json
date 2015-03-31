@@ -1,0 +1,14 @@
+{
+    "description": "A webapp client for french media Médiapart",
+    "framework": "ubuntu-sdk-14.04",
+    "hooks": {
+        "mediapart": {
+        "apparmor": "app.json",
+        "desktop": "app.desktop"
+    }
+},
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+	"name": "mediapart.vinzjobard",
+    "title": "Médiapart",
+    "version": "0.1"
+}
