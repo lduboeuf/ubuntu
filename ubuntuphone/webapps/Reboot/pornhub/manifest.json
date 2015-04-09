@@ -1,0 +1,14 @@
+{
+    "description": "**NSFW:**A webapp client for the adult website pornhub.",
+    "framework": "ubuntu-sdk-14.04",
+    "hooks": {
+        "pornhub": {
+        "apparmor": "app.json",
+        "desktop": "app.desktop"
+    }
+},
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+	"name": "pornhub.vinzjobard",
+    "title": "Pornhub",
+    "version": "0.1"
+}

@@ -1,0 +1,14 @@
+{
+    "description": "**NSFW:**A webapp client for the adult website YouPorn.",
+    "framework": "ubuntu-sdk-14.04",
+    "hooks": {
+        "youporn": {
+        "apparmor": "app.json",
+        "desktop": "app.desktop"
+    }
+},
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+	"name": "youporn.vinzjobard",
+    "title": "YouPorn",
+    "version": "0.1"
+}

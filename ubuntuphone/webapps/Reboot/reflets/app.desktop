@@ -2,6 +2,6 @@
 Name=Reflets
 Type=Application
 Icon=icon.png
-Exec=qmlscene $@ qml/Main.qml
+Exec=qmlscene %u qml/Main.qml
 Terminal=false
 X-Ubuntu-Touch=true

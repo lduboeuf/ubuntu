@@ -1,0 +1,14 @@
+{
+    "description": "A webapp client for GeoGebra",
+    "framework": "ubuntu-sdk-14.04",
+    "hooks": {
+        "geogebra": {
+        "apparmor": "app.json",
+        "desktop": "app.desktop"
+    }
+},
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+	"name": "geogebra.vinzjobard",
+    "title": "GeoGebra",
+    "version": "0.1"
+}

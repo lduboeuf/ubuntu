@@ -63,6 +63,28 @@ done
 
 cp config.cfg $app_name/
 
+# add the alternate-webapp-container revision 
+# number info inside the config.cfg file
+
+eval $(\
+    bzr \
+    version-info \
+    lp:~ogra/junk/alternate-webapp-container \
+    | grep "revno" \
+    | sed 's/\:\ /=/'\
+)
+
+echo """
+
+# Oliver Grawert's alternate-webapp-container 
+# revision number
+
+export alternate-webapp-container_revno=$revno
+
+""" >> $app_name/config.cfg
+
+
+
 
 # Edit the value of applicationName at the top of
 # qml/Main.qml to match your application name to 

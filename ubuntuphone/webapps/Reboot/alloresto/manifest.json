@@ -1,0 +1,14 @@
+{
+    "description": "A webapp client for AlloResto.fr.",
+    "framework": "ubuntu-sdk-14.04",
+    "hooks": {
+        "alloresto": {
+        "apparmor": "app.json",
+        "desktop": "app.desktop"
+    }
+},
+    "maintainer": "Winael <vinzjobard@gmail.com>",
+	"name": "alloresto.vinzjobard",
+    "title": "AlloResto",
+    "version": "0.1"
+}

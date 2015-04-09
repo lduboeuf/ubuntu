@@ -1,5 +1,5 @@
 {
-    "description": "A webapp client for french media reflets.info",
+    "description": "A webapp client for the french media Reflets.info",
     "framework": "ubuntu-sdk-14.04",
     "hooks": {
         "reflets": {

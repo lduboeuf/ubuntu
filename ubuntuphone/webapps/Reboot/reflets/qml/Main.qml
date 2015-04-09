@@ -3,13 +3,14 @@ import Ubuntu.Web 0.2
 import Ubuntu.Components 1.1
 import com.canonical.Oxide 1.0 as Oxide
 import "UCSComponents"
+import Ubuntu.Content 1.1
 import "."
 import "../config.js" as Conf
 
 MainView {
     objectName: "mainView"
 
-    applicationName: reflets.vinzjobard
+    applicationName: "reflets.vinzjobard"
 
     useDeprecatedToolbar: false
     anchorToKeyboard: true
@@ -18,7 +19,7 @@ MainView {
     property string myUrl: Conf.webappUrl
     property string myPattern: Conf.webappUrlPattern
 
-    property string myUA: "Mozilla/5.0 (Linux; Android 5.0; Nexus 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36"
+    property string myUA: Conf.webappUA ? Conf.webappUA : "Mozilla/5.0 (Linux; Android 5.0; Nexus 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36"
 
     Page {
         id: page
@@ -43,6 +44,13 @@ MainView {
             height: parent.height
 
             context: webcontext
+            url: myUrl
+            preferences.localStorageEnabled: true
+            preferences.allowFileAccessFromFileUrls: true
+            preferences.allowUniversalAccessFromFileUrls: true
+            preferences.appCacheEnabled: true
+            preferences.javascriptCanAccessClipboard: true
+            filePicker: filePickerLoader.item
 
             function navigationRequestedDelegate(request) {
                 var url = request.url.toString();
@@ -65,7 +73,17 @@ MainView {
             }
             Component.onCompleted: {
                 preferences.localStorageEnabled = true
-                url = myUrl
+                if (Qt.application.arguments[1].toString().indexOf(myUrl) > -1) {
+                    console.warn("got argument: " + Qt.application.arguments[1])
+                    url = Qt.application.arguments[1]
+                }
+                console.warn("url is: " + url)
+            }
+            onGeolocationPermissionRequested: { request.accept() }
+            Loader {
+                id: filePickerLoader
+                source: "ContentPickerDialog.qml"
+                asynchronous: true
             }
         }
         ThinProgressBar {
