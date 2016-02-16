@@ -1,0 +1,666 @@
+Package: flashplugin-downloader
+Priority: optional
+Section: multiverse/web
+Installed-Size: 24
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Architecture: i386
+Source: flashplugin-nonfree
+Version: 11.2.202.569ubuntu0.15.10.1
+Depends: flashplugin-installer (>= 11.1.102.55ubuntu3)
+Filename: pool/multiverse/f/flashplugin-nonfree/flashplugin-downloader_11.2.202.569ubuntu0.15.10.1_i386.deb
+Size: 1894
+MD5sum: 5faa3b4c1e0152ce6c3104a0dbe46634
+SHA1: 8b333e316552beb36e2ab605fcf0b6fed640d15b
+SHA256: d4e34f99cd02f02d6f6b96a1764cd6eeaf77b28b5f5738133650ba3185a996e7
+Description: Adobe Flash Player plugin installer (transitional package)
+Multi-Arch: foreign
+Homepage: http://www.adobe.com/products/flashplayer.html
+Description-md5: 66ea91f4e504085408ea841953dc65d0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: flashplugin-installer
+Priority: optional
+Section: multiverse/web
+Installed-Size: 57
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Architecture: i386
+Source: flashplugin-nonfree
+Version: 11.2.202.569ubuntu0.15.10.1
+Replaces: flashplugin (<< 6), flashplugin-downloader (<< 11.1.102.55ubuntu3), flashplugin-nonfree (<< 11.0.1.152ubuntu1)
+Provides: flashplugin-nonfree
+Depends: debconf (>= 0.5) | debconf-2.0, wget, libgtk2.0-0, fontconfig, libxt6, libxext6, libatk1.0-0, libc6, libcairo2, libexpat1, libfontconfig1, libfreetype6, libglib2.0-0, libice6, libpango1.0-0, libpng12-0, libsm6, libx11-6, libxau6, libxcursor1, libxdmcp6, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, zlib1g, libnss3, libnspr4, libcurl3 | libcurl3-gnutls, libasound2, update-notifier-common (>= 0.119ubuntu2)
+Recommends: libasound2-plugins (>= 1.0.16)
+Suggests: firefox, x-ttcidfont-conf, ttf-mscorefonts-installer, ttf-bitstream-vera | ttf-dejavu, ttf-xfree86-nonfree, xfs
+Conflicts: flashplayer-mozilla, flashplugin (<< 6), flashplugin-nonfree (<< 11.0.1.152ubuntu1), libflashsupport
+Breaks: flashplugin-downloader (<< 11.1.102.55ubuntu3)
+Filename: pool/multiverse/f/flashplugin-nonfree/flashplugin-installer_11.2.202.569ubuntu0.15.10.1_i386.deb
+Size: 6844
+MD5sum: add9ac1cb043eacc51a673a96b0e17c4
+SHA1: fd9081aef43cc5356aade8b7705000030cde57fc
+SHA256: 2aa5050ecb7e84bb7ab0613a79e10ffc282f5186bdb7476005342fe7cb0ee204
+Description: Adobe Flash Player plugin installer
+Multi-Arch: foreign
+Homepage: http://www.adobe.com/products/flashplayer.html
+Npp-Applications: ec8030f7-c20a-464f-9b0e-13a3a9e97384, 92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a, aa5ca914-c309-495d-91cf-3141bbb04115
+Npp-Description: Adobe Flash SWF Player (http://www.adobe.com)
+Npp-File: libflashplayer.so
+Npp-Mimetype: application/x-shockwave-flash
+Npp-Name: Adobe Flash Player (installer)
+Description-md5: a03e9ebc20ce82c05567d088e79bf750
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcuda1-331
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-340
+Version: 340.96-0ubuntu0.15.10.1
+Depends: libcuda1-340
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/libcuda1-331_340.96-0ubuntu0.15.10.1_i386.deb
+Size: 4808
+MD5sum: 72624f650f468b8d31526484c921fa9c
+SHA1: f9331d624a1cda0c00bd9d7349463ea883555009
+SHA256: 2a2912b31d5c4db0851d8b0bdebd1b244a600028e7b30c94da32dfe58d7c8049
+Description: Transitional package for libcuda1-340
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcuda1-331-updates
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-340-updates
+Version: 340.96-0ubuntu0.15.10.1
+Depends: libcuda1-340-updates
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340-updates/libcuda1-331-updates_340.96-0ubuntu0.15.10.1_i386.deb
+Size: 4814
+MD5sum: b528c3ed27d9380b3b74e615ab5f2c44
+SHA1: 8a537ed7009d4569fce567027374318c72cfa541
+SHA256: e6ff6c8b77538170dcdb354ab7e3db0ec42b0635ec312a492b4e7d5b1ffeb390
+Description: Transitional package for libcuda1-340-updates
+Description-md5: 0b359ef2c9dad40dcef3093e6fc52438
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcuda1-346
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-352
+Version: 352.63-0ubuntu0.15.10.1
+Depends: libcuda1-352
+Filename: pool/multiverse/n/nvidia-graphics-drivers-352/libcuda1-346_352.63-0ubuntu0.15.10.1_i386.deb
+Size: 4798
+MD5sum: 120b6c0c59d07e77ecb9bc6596ddca15
+SHA1: 9652b90d69c599ee721ef730cefd25d2c0e570dd
+SHA256: e8a9a958e82e5e4c93bca753612188e513c6116a37583fda67642ff08e268361
+Description: Transitional package for libcuda1-352
+Description-md5: 36dc83a29c9445d07a06db68a9b740cc
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcuda1-346-updates
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-352-updates
+Version: 352.63-0ubuntu0.15.10.1
+Depends: libcuda1-352-updates
+Filename: pool/multiverse/n/nvidia-graphics-drivers-352-updates/libcuda1-346-updates_352.63-0ubuntu0.15.10.1_i386.deb
+Size: 4814
+MD5sum: 63ba644240e1483b7cb49aa362db96bd
+SHA1: da682e795d3d03afda3beed4b12aacd31ec2d0f6
+SHA256: 33522b1a8b0fe630b3668f1226be310d880c96990ffcedc7974dd96e1506b674
+Description: Transitional package for libcuda1-352-updates
+Description-md5: 1766bf6cb2bfee2e74c3c1bcaa86b80c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-304
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 43
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-304
+Version: 304.131-0ubuntu0.15.10.1
+Replaces: libopencl1
+Provides: libopencl1
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1)
+Suggests: nvidia-opencl-icd-304
+Conflicts: libopencl1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-304/nvidia-libopencl1-304_304.131-0ubuntu0.15.10.1_i386.deb
+Size: 11686
+MD5sum: 2734532f53b89897b5f8715e3b0c2a69
+SHA1: ac4c6caa6290e40fd1d6d10f21ed7bae693b672d
+SHA256: bcfec70c595c7358d6ba7e013bd67fd771f8dbcc1a3b837b1799644d935e69c5
+Description: NVIDIA OpenCL Driver and ICD Loader library
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-304-updates
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 43
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-304-updates
+Version: 304.131-0ubuntu0.15.10.1
+Replaces: libopencl1
+Provides: libopencl1
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1)
+Suggests: nvidia-opencl-icd-304-updates
+Conflicts: libopencl1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-304-updates/nvidia-libopencl1-304-updates_304.131-0ubuntu0.15.10.1_i386.deb
+Size: 11736
+MD5sum: 55566511fc3e44c8cb4f76c3b48847b8
+SHA1: 70f102835ebcdf359d12fc8ff8a0b00fd44898ee
+SHA256: 75f33ee18bf58300dac5573519578cb12bcb6be6510cf9619b7f6cbfa8503dc9
+Description: NVIDIA OpenCL Driver and ICD Loader library
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-331
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-340
+Version: 340.96-0ubuntu0.15.10.1
+Depends: nvidia-libopencl1-340
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-libopencl1-331_340.96-0ubuntu0.15.10.1_i386.deb
+Size: 6084
+MD5sum: 74a515e9c9ac4f7b2eb1577e2dbf5233
+SHA1: c42596187fd71241d6f0e08a1d121523eb9d1867
+SHA256: f65ee63f6346efa46a655abc12126e8446901ac92e8600938ad1ba0f5128ee03
+Description: Transitional package for nvidia-libopencl1-340
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-331-updates
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-340-updates
+Version: 340.96-0ubuntu0.15.10.1
+Depends: nvidia-libopencl1-340-updates
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340-updates/nvidia-libopencl1-331-updates_340.96-0ubuntu0.15.10.1_i386.deb
+Size: 4824
+MD5sum: b68365c3e7e660927062e58ff612b0ea
+SHA1: 1c74b2b1a4ac2d4e219913676b793c7fc5f6bd20
+SHA256: 60456d8779951db07038394438a852f2fcb27936fd7cc6082981181bf66ad58e
+Description: Transitional package for nvidia-libopencl1-340-updates
+Description-md5: 75bd6573bb973d50c37d9188488022da
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-340
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 47
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-340
+Version: 340.96-0ubuntu0.15.10.1
+Replaces: libopencl1
+Provides: libopencl1
+Depends: nvidia-340-uvm, libc6 (>= 2.3.6-6~)
+Suggests: nvidia-opencl-icd-340
+Conflicts: libopencl1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-libopencl1-340_340.96-0ubuntu0.15.10.1_i386.deb
+Size: 11706
+MD5sum: ea229e4342b31acd4a41786bdcc85da0
+SHA1: d13458b9e5fa8c0c534bb9edd350eaffeeb4d80c
+SHA256: 6815fec2508b8c9d758a2e2aed98cd51a6f6b57a65c6fdc2597ae6bf85d9a969
+Description: NVIDIA OpenCL Driver and ICD Loader library
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-340-updates
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 47
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-340-updates
+Version: 340.96-0ubuntu0.15.10.1
+Replaces: libopencl1
+Provides: libopencl1
+Depends: libc6 (>= 2.3.6-6~)
+Suggests: nvidia-opencl-icd-340-updates
+Conflicts: libopencl1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340-updates/nvidia-libopencl1-340-updates_340.96-0ubuntu0.15.10.1_i386.deb
+Size: 12996
+MD5sum: cd5166cb830c8c1370c14cb721b2b8af
+SHA1: 14b0da6c4f3a73e41f4a6af5dd075b72bf28e64b
+SHA256: d033b6dea9ee95303b44cc028288cf432ab3ef4ddc2c57b70c4af62eb126ba42
+Description: NVIDIA OpenCL Driver and ICD Loader library
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-346
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-352
+Version: 352.63-0ubuntu0.15.10.1
+Depends: nvidia-libopencl1-352
+Filename: pool/multiverse/n/nvidia-graphics-drivers-352/nvidia-libopencl1-346_352.63-0ubuntu0.15.10.1_i386.deb
+Size: 4804
+MD5sum: 6730de343d7159b4687509d08d71d85d
+SHA1: 146b67508d3b6b360d94132b52a1877be6a0c4a7
+SHA256: 56f1b916c63e290d5e4ce3fa82a781ff7088c0215236f9a0c4228ef36a7d7886
+Description: Transitional package for nvidia-libopencl1-352
+Description-md5: 96e744c6bd03618ca8ddd2b3a9d8f87b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-346-updates
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-352-updates
+Version: 352.63-0ubuntu0.15.10.1
+Depends: nvidia-libopencl1-352-updates
+Filename: pool/multiverse/n/nvidia-graphics-drivers-352-updates/nvidia-libopencl1-346-updates_352.63-0ubuntu0.15.10.1_i386.deb
+Size: 4822
+MD5sum: 16d2d190d085f89c64a3c687d21b7e80
+SHA1: 58d84d1442c1f97c86ca87bee692977acba289b3
+SHA256: cc05d46f7b35abe9bf05d31b6da7f4a9c5f8b84b16eb4572282c0ea2b00c6ea6
+Description: Transitional package for nvidia-libopencl1-352-updates
+Description-md5: b6f2aa442830b7196247f94de8cd557a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-352
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 51
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-352
+Version: 352.63-0ubuntu0.15.10.1
+Replaces: libopencl1
+Provides: libopencl1
+Depends: libc6 (>= 2.3.6-6~)
+Suggests: nvidia-opencl-icd-352
+Conflicts: libopencl1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-352/nvidia-libopencl1-352_352.63-0ubuntu0.15.10.1_i386.deb
+Size: 14120
+MD5sum: eba0453e4545593c9523e908044b9dc4
+SHA1: 07d2303677a46e3a1bfa59d767ac3046a0736977
+SHA256: b3445ecb84349293174c1371ff7505122cc37fdb3c2c85520c0b2d863782582c
+Description: NVIDIA OpenCL Driver and ICD Loader library
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-352-updates
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 51
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-352-updates
+Version: 352.63-0ubuntu0.15.10.1
+Replaces: libopencl1
+Provides: libopencl1
+Depends: libc6 (>= 2.3.6-6~)
+Suggests: nvidia-opencl-icd-352-updates
+Conflicts: libopencl1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-352-updates/nvidia-libopencl1-352-updates_352.63-0ubuntu0.15.10.1_i386.deb
+Size: 14082
+MD5sum: a51cfed46ccc64d71ab22425f856c344
+SHA1: bd647521dcd4e74a29fd3acf2d9c206362732c94
+SHA256: 4e2b4b10b52038e625d1b018fb63ddfbfd1111b4e8ed6a6ccb4edce7246e5d49
+Description: NVIDIA OpenCL Driver and ICD Loader library
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-opencl-icd-331
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-340
+Version: 340.96-0ubuntu0.15.10.1
+Depends: nvidia-opencl-icd-340
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-opencl-icd-331_340.96-0ubuntu0.15.10.1_i386.deb
+Size: 4808
+MD5sum: 137f6e138337848395dfc78b5a6cc3aa
+SHA1: d0dc8d4046530dc0e9b880df341f9fbf95ace60a
+SHA256: 007bc99ca28811d2ddd498976f073fca0e150531e664c70a6baa1f6df75590ad
+Description: Transitional package for nvidia-opencl-icd-340
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-opencl-icd-331-updates
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-340-updates
+Version: 340.96-0ubuntu0.15.10.1
+Depends: nvidia-opencl-icd-340-updates
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340-updates/nvidia-opencl-icd-331-updates_340.96-0ubuntu0.15.10.1_i386.deb
+Size: 4820
+MD5sum: d68b57e4ede22390b83640be65a7b339
+SHA1: 5568a54fc0d027bd3bc5301c098679febb5dfc3e
+SHA256: 80fe7267c7994589226fbab47f8750b575458017e5e31a1a759b958603074d83
+Description: Transitional package for nvidia-opencl-icd-340-updates
+Description-md5: 3626b8ddf04a484ef52f52dcef1ea8d7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-opencl-icd-346
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-352
+Version: 352.63-0ubuntu0.15.10.1
+Depends: nvidia-opencl-icd-352
+Filename: pool/multiverse/n/nvidia-graphics-drivers-352/nvidia-opencl-icd-346_352.63-0ubuntu0.15.10.1_i386.deb
+Size: 4808
+MD5sum: 0e799a9a1c265d0188ea0cde50b13a0e
+SHA1: 3b398c55a4f5e3ab1903ee241fc9a48d01c5d709
+SHA256: bfba005039bb7be23646ae7247976992d4f1c1a937e524e9e02f17786419177a
+Description: Transitional package for nvidia-opencl-icd-352
+Description-md5: 31151b56b0725865ffd43cfb431d0d93
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-opencl-icd-346-updates
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-352-updates
+Version: 352.63-0ubuntu0.15.10.1
+Depends: nvidia-opencl-icd-352-updates
+Filename: pool/multiverse/n/nvidia-graphics-drivers-352-updates/nvidia-opencl-icd-346-updates_352.63-0ubuntu0.15.10.1_i386.deb
+Size: 4816
+MD5sum: 39f2fc546545dc9a142b094f609b7924
+SHA1: 5ba3c008cc123292b7fe346dee46410560f0b604
+SHA256: e2c46c0b132b75ae45ffc9e836de64ecd286c54808d6884feffe19bd8c910867
+Description: Transitional package for nvidia-opencl-icd-352-updates
+Description-md5: 64377fefdba2f294be862de445112347
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 61823
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Version: 5.0.14-dfsg-0ubuntu1.15.10.1
+Depends: adduser, procps, virtualbox-dkms (>= 5.0.14-dfsg-0ubuntu1.15.10.1) | virtualbox-source (>= 5.0.14-dfsg-0ubuntu1.15.10.1) | virtualbox-modules, init-system-helpers (>= 1.18~), python (<< 2.8), python (>= 2.7~), python2.7, python:any (>= 2.7.5-5~), libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.2), libgcc1 (>= 1:4.1.1), libgsoap7, libpng12-0 (>= 1.2.13-4), libpython2.7 (>= 2.7), libsdl1.2debian (>= 1.2.11), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 5.2), libvncserver1 (>= 0.9.10), libvpx2 (>= 1.4.0), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxml2 (>= 2.7.4), libxmu6, libxt6, zlib1g (>= 1:1.1.4)
+Recommends: virtualbox-qt (= 5.0.14-dfsg-0ubuntu1.15.10.1), libgl1-mesa-glx | libgl1, libqt4-opengl (>= 4:4.5.3), libqtcore4 (>= 4:4.5.3), libqtgui4 (>= 4:4.5.3)
+Suggests: vde2, virtualbox-guest-additions-iso
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0
+Filename: pool/multiverse/v/virtualbox/virtualbox_5.0.14-dfsg-0ubuntu1.15.10.1_i386.deb
+Size: 14104094
+MD5sum: 9c3690a84ba119d87d3457ce0c9be232
+SHA1: 851f8757a570064963fd12b8fa39c95c454e7ba2
+SHA256: acad73a560c00ff50808f77c824a4829f5de0dd229ac747505866a5dcc5803f7
+Description: x86 virtualization solution - base binaries
+Homepage: http://www.virtualbox.org/
+Description-md5: 30f96d22c1a6ca04db16bdc1e79ad965
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-dbg
+Priority: extra
+Section: multiverse/debug
+Installed-Size: 132223
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: virtualbox
+Version: 5.0.14-dfsg-0ubuntu1.15.10.1
+Depends: virtualbox (= 5.0.14-dfsg-0ubuntu1.15.10.1) | virtualbox-guest-utils (= 5.0.14-dfsg-0ubuntu1.15.10.1)
+Filename: pool/multiverse/v/virtualbox/virtualbox-dbg_5.0.14-dfsg-0ubuntu1.15.10.1_i386.deb
+Size: 110564626
+MD5sum: 4dea8844206fce58463b220491205dbf
+SHA1: ae2b009f23f14f4bdd42f57f4219e76250a85c62
+SHA256: 8ecf41e38be6463878a5d449899ccf6c13fa53865dc0489a0b4d5bd1da4dec9a
+Description: x86 virtualization solution - debugging symbols
+Homepage: http://www.virtualbox.org/
+Description-md5: b271b8956187eca407d52354cf368938
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-dkms
+Priority: optional
+Section: multiverse/kernel
+Installed-Size: 4832
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Source: virtualbox
+Version: 5.0.14-dfsg-0ubuntu1.15.10.1
+Provides: virtualbox-modules
+Depends: dkms (>= 2.1.0.0)
+Recommends: virtualbox (>= 5.0.14-dfsg-0ubuntu1.15.10.1)
+Filename: pool/multiverse/v/virtualbox/virtualbox-dkms_5.0.14-dfsg-0ubuntu1.15.10.1_all.deb
+Size: 615700
+MD5sum: 3cb26efd6979e4ac787fc89d4b03afd7
+SHA1: bc3dfc454f3448b3b9911e18a80fd274b8ac813f
+SHA256: f3deabcaf337c1ad3e201da9143e0c3bf43cb868e9e87f5f03fcc3e99801809a
+Description: x86 virtualization solution - kernel module sources for dkms
+Homepage: http://www.virtualbox.org/
+Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-ext-pack
+Priority: extra
+Section: multiverse/misc
+Installed-Size: 116
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 5.0.14-1~ubuntu1.15.10.1
+Depends: virtualbox (>= 5.0) | virtualbox-5.0, wget, debconf (>= 0.5) | debconf-2.0
+Pre-Depends: debconf
+Filename: pool/multiverse/v/virtualbox-ext-pack/virtualbox-ext-pack_5.0.14-1~ubuntu1.15.10.1_all.deb
+Size: 11508
+MD5sum: 52b24ef41adcbc18ba03f2e9b21fd4db
+SHA1: db67e712824674e67b2c95ef5cb2450f94809914
+SHA256: 9e2d56e11a5a3d2435208942e8d0d1de1302b2410b475906b7fffd74c991b680
+Description: extra capabilities for VirtualBox, downloader.
+Homepage: https://www.virtualbox.org
+Description-md5: d34299a0a1c7bf804958800947ea531c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-guest-additions-iso
+Priority: extra
+Section: multiverse/misc
+Installed-Size: 57653
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 5.0.14-1~ubuntu1.15.10.1
+Replaces: virtualbox-guest-additions (<< 4.0.6-1~)
+Recommends: virtualbox (>= 5.0.14)
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0
+Breaks: virtualbox-guest-additions (<< 4.0.6-1~)
+Filename: pool/multiverse/v/virtualbox-guest-additions-iso/virtualbox-guest-additions-iso_5.0.14-1~ubuntu1.15.10.1_all.deb
+Size: 39969778
+MD5sum: a1fefb2bfef09fe83ed9724d34ad0d2a
+SHA1: 0a33fd32e5d6f82a3bc6f3fbf6b15c3d7a2a6145
+SHA256: 1ee922140c89df7ccfa28a21a7009983625cfff39e49f13d59d7066462ec61f3
+Description: guest additions iso image for VirtualBox
+Homepage: http://www.virtualbox.org/
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-guest-dkms
+Priority: optional
+Section: multiverse/kernel
+Installed-Size: 3956
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Source: virtualbox
+Version: 5.0.14-dfsg-0ubuntu1.15.10.1
+Provides: virtualbox-guest-modules
+Depends: virtualbox-guest-utils (>= 5.0.14-dfsg-0ubuntu1.15.10.1), dkms (>= 2.1.0.0)
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-dkms_5.0.14-dfsg-0ubuntu1.15.10.1_all.deb
+Size: 501216
+MD5sum: c2ac1b1424a972c5494d2c613612d291
+SHA1: 50ab3a3ba7e61d31bd5f1b1884740b85aea12ece
+SHA256: 0068314bc9012ac42373e0fbfe628565d688d7b85f5650629ec10d689896f2f1
+Description: x86 virtualization solution - guest addition module source for dkms
+Homepage: http://www.virtualbox.org/
+Modaliases: vboxguest(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*)
+Description-md5: e15ead9377a7f1e325ded819d3cfaf8b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-guest-source
+Priority: optional
+Section: multiverse/kernel
+Installed-Size: 688
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Source: virtualbox
+Version: 5.0.14-dfsg-0ubuntu1.15.10.1
+Depends: build-essential, bzip2, debhelper (>= 9), kbuild, module-assistant
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-source_5.0.14-dfsg-0ubuntu1.15.10.1_all.deb
+Size: 613672
+MD5sum: 0d99c3f5cffd5b2c45d61dd89a53dd5a
+SHA1: b36fe7acb63239d7a3fcb345ba493f02eaf60096
+SHA256: 0f87b81300a3cbf44e88b15da9c14fe3eb9e10c25fe48b71145ecd54d8c82f77
+Description: x86 virtualization solution - guest addition module source
+Homepage: http://www.virtualbox.org/
+Description-md5: 4e8ea50b26a8f2bc5f4e7ef943a32a06
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-guest-utils
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 1897
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: virtualbox
+Version: 5.0.14-dfsg-0ubuntu1.15.10.1
+Depends: adduser, pciutils, libc6 (>= 2.15), libpam0g (>= 0.99.7.1)
+Recommends: virtualbox-guest-dkms (= 5.0.14-dfsg-0ubuntu1.15.10.1) | virtualbox-guest-source (= 5.0.14-dfsg-0ubuntu1.15.10.1) | virtualbox-guest-modules, virtualbox-guest-x11 (= 5.0.14-dfsg-0ubuntu1.15.10.1)
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-utils_5.0.14-dfsg-0ubuntu1.15.10.1_i386.deb
+Size: 388600
+MD5sum: 41adad210bf307d94e82111f7f826011
+SHA1: edc56a6341774dc059ca2a6839224caa56890f78
+SHA256: fa1636dbe325a20ba7d3afc13569bae985ef2eda8604e266be3dc23d7f714f03
+Description: x86 virtualization solution - non-X11 guest utilities
+Homepage: http://www.virtualbox.org/
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-guest-x11
+Priority: optional
+Section: multiverse/x11
+Installed-Size: 5764
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: virtualbox
+Version: 5.0.14-dfsg-0ubuntu1.15.10.1
+Provides: xorg-driver-video
+Depends: libnotify-bin, x11-xserver-utils, virtualbox-guest-utils (= 5.0.14-dfsg-0ubuntu1.15.10.1), libc6 (>= 2.15), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxmu6, libxt6, xorg-video-abi-19, xserver-xorg-core (>= 2:1.16.99.901)
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-x11_5.0.14-dfsg-0ubuntu1.15.10.1_i386.deb
+Size: 977894
+MD5sum: 3f09f8c7cc100ec45b31052a3c3227b3
+SHA1: 4661434c1a3e27c43979191f95af529c5fee6baa
+SHA256: d815f96d1f2a3edd2e20f8c70f18dc6af9bebfcf56e95e1dab685bf6e41dd905
+Description: x86 virtualization solution - X11 guest utilities
+Homepage: http://www.virtualbox.org/
+Modaliases: vboxx11(pci:v000080EEd0000BEEFsv00000000sd00000000bc*sc*i*)
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-qt
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 24796
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: virtualbox
+Version: 5.0.14-dfsg-0ubuntu1.15.10.1
+Replaces: virtualbox (<< 4.1.6-dfsg-2~)
+Depends: virtualbox (= 5.0.14-dfsg-0ubuntu1.15.10.1), libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libqt4-opengl (>= 4:4.7.2), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 5.2), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxinerama1
+Breaks: virtualbox (<< 4.1.6-dfsg-2~)
+Filename: pool/multiverse/v/virtualbox/virtualbox-qt_5.0.14-dfsg-0ubuntu1.15.10.1_i386.deb
+Size: 7271020
+MD5sum: 4a77fb6fb63c6cc81509e98fa7b7ee58
+SHA1: fa4083cf84cf7dc3cb074859bfdbae5c5f56c365
+SHA256: 65156d691bea42966fe9e64e71c8f0234c3bb933997303a218dbadaaee497731
+Description: x86 virtualization solution - Qt based user interface
+Homepage: http://www.virtualbox.org/
+Description-md5: 41ed29f36ba23b3ce0155f9a8efcff60
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-source
+Priority: optional
+Section: multiverse/kernel
+Installed-Size: 799
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Source: virtualbox
+Version: 5.0.14-dfsg-0ubuntu1.15.10.1
+Depends: build-essential, bzip2, debhelper (>= 9), kbuild, module-assistant
+Recommends: virtualbox (>= 5.0.14-dfsg-0ubuntu1.15.10.1)
+Filename: pool/multiverse/v/virtualbox/virtualbox-source_5.0.14-dfsg-0ubuntu1.15.10.1_all.deb
+Size: 728876
+MD5sum: 5182c1957e5ac26380c358a452f1be26
+SHA1: 256316c813e2e92e5217fec07ebb3f6805eb7196
+SHA256: c48e25203e3a54c0cf3b2924202d5b441d2b42eb1c33fe44068edc207e504db7
+Description: x86 virtualization solution - kernel module source
+Homepage: http://www.virtualbox.org/
+Description-md5: 53035ede584988f3413156cb7a5dbe8b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+

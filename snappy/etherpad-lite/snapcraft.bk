@@ -1,0 +1,24 @@
+name: etherpad-lite
+version: 0.1
+vendor: etherpad <contact@etherpad.org>
+
+summary: really-real time collaborative editor
+description: Etherpad is a really-real time collaborative editor maintained by the Etherpad Community.
+icon: icon.png
+
+parts:
+  etherpad-lite:
+    plugin: nodejs
+    source: git://github.com/ether/etherpad-lite
+    source-subdir: src
+    stage-packages: 
+      - gzip 
+      - git 
+      - curl 
+      - python 
+      - libssl-dev 
+      - pkg-config 
+      - build-essential
+    snap:
+      - bin
+      - var
