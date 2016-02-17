@@ -1131,6 +1131,214 @@ Description-en: FFmpeg library for post processing - runtime files
  .
  This package contains the runtime files.
 
+Package: libreoffice
+Description-md5: 69d7556a53642b01f6e6383cd4447bc4
+Description-en: office productivity suite (metapackage)
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This metapackage installs all components of libreoffice:
+  * libreoffice-writer: Word processor
+  * libreoffice-calc: Spreadsheet
+  * libreoffice-impress: Presentation
+  * libreoffice-draw: Drawing
+  * libreoffice-base: Database
+  * libreoffice-math: Equation editor
+ .
+ You can extend the functionality of LibreOffice by installing these
+ packages:
+  * hunspell-*/myspell-*: Hunspell/Myspell dictionaries
+    for use with LibreOffice
+  * libreoffice-l10n-*: UI interface translation
+  * libreoffice-help-*: User help
+  * mythes-*: Thesauri for the use with LibreOffice
+  * hyphen-*: Hyphenation patterns for LibreOffice
+  * libreoffice-gtk: Gtk UI Plugin, GNOME File Picker support,
+    QuickStarter for GNOMEs notification are
+  * libreoffice-gnome: GIO, GConf backend
+  * libreoffice-kde: KDE UI Plugin and KDE File Picker support
+  * unixodbc: ODBC database support
+  * cups-bsd: Allows LibreOffice to detect your CUPS printer queues
+    automatically
+  * libsane: Use your sane-supported scanner with LibreOffice
+  * libxrender1: Speed up display by using Xrender library
+  * libgl1: OpenGL support
+  * openclipart-libreoffice: Open Clip Art Gallery with LibreOffice index
+    files
+  * iceweasel | firefox | icedove | thunderbird | iceape-browser | mozilla-browser:
+    Mozilla profile with Certificates needed for XML Security...
+  * openjdk-6-jre | gcj-jre | java5-runtime:
+    Java Runtime Environment for use with LibreOffice
+  * pstoedit / imagemagick: helper tools for EPS thumbnails
+  * gstreamer0.10-plugins-*: GStreamer plugins for use with LibreOffices
+    media backend
+  * libpaper-utils: papersize detection support via paperconf
+  * bluez: Bluetooth support for Impress (slideshow remote control)
+
+Package: libreoffice-gtk3
+Description-md5: 4e56e2ffd158c495dc1ce183adb83df3
+Description-en: office productivity suite -- GTK+ 3.0 integration
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the Gtk plugin for drawing LibreOffices widgets
+ with Gtk+ 3.0 and Gtk/GNOMEish print dialog when running under GNOME.
+
+Package: libreoffice-kde
+Description-md5: 055bef0d629659ffd2957ff1a774c681
+Description-en: office productivity suite -- KDE integration
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the KDE plugin for drawing OOo's widgets with
+ KDE/Qt and a KDEish File Picker when running under KDE.
+ You can extend the functionality of this by installing these packages:
+ .
+  * konqueror / kmail
+  * libreoffice-kab: KDE Addressbook support
+
+Package: libreoffice-librelogo
+Description-md5: 71fe1726b20ed521137fe79b55cd374b
+Description-en: Logo-like progamming language for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains Librelogo, which is a pyuno-based Logo-like progamming
+ language with interactive vectorgraphics for education and DTP
+  - basic Logo syntax for back compatibility with educational Logo systems
+  - interactive vectorgraphics in LibreOffice Writer
+  - native commands (easily translatable)
+  - Python data structures (list, tuple, set, dictionary) and other Python
+    features
+
+Package: libreoffice-mysql-connector
+Description-md5: a911b8b20116e62af2fea609f2117a03
+Description-en: MariaDB/MySQL Connector extension for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ The MariaDB/MySQL Connector extension allows one to use the MariaDB or MySQL
+ database from LibreOffice without any wrapper layer such as ODBC or JDBC.
+
+Package: libreoffice-report-builder
+Description-md5: 8239ceaa4ebaf25c2b15325d48eb907c
+Description-en: LibreOffice component for building database reports
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the report builder:
+  "Create with the Sun Report Builder stylish, smart-looking database reports.
+  The flexible report editor can define group and page headers as well as
+  group and page footers and even calculation fields are available to
+  accomplish complex database reports."
+
+Package: libreoffice-report-builder-bin
+Description-md5: 4de9416ad29a7951be39b95f83055e84
+Description-en: LibreOffice component for building database reports -- libraries
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains some architecture-dependent support libraries
+ (librpt*.so) for the report builder component.
+
+Package: libreoffice-script-provider-bsh
+Description-md5: 720bef09745ce9eb4902772fb5c437d8
+Description-en: BeanShell script support provider for LibreOffice scripting framework
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ The Scripting Framework allows LibreOffice users to write and run macros
+ in multiple languages including LibreOffice Basic, Python, Java, BeanShell
+ and JavaScript. These macros can then be assigned to menus, toolbars,
+ keyboard shortcuts, events and embedded objects.
+ .
+ This package contains the script provider to support BeanShell.
+
+Package: libreoffice-script-provider-js
+Description-md5: 41b18315e9be2aaa24a28415b907118e
+Description-en: JavaScript script support provider for LibreOffice scripting framework
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ The Scripting Framework allows LibreOffice users to write and run macros
+ in multiple languages including LibreOffice Basic, Python, Java, BeanShell
+ and JavaScript. These macros can then be assigned to menus, toolbars,
+ keyboard shortcuts, events and embedded objects.
+ .
+ This package contains the script provider to support JavaScript.
+
+Package: libreoffice-script-provider-python
+Description-md5: 019117f2dc708fc6c1179714b81e2076
+Description-en: Python script support provider for LibreOffice scripting framework
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ The Scripting Framework allows LibreOffice users to write and run macros
+ in multiple languages including LibreOffice Basic, Python, Java, BeanShell
+ and JavaScript. These macros can then be assigned to menus, toolbars,
+ keyboard shortcuts, events and embedded objects.
+ .
+ This package contains the script provider to support Python.
+
+Package: libreoffice-sdbc-postgresql
+Description-md5: 06f71158aa78dbe7201679601bd1279b
+Description-en: PostgreSQL SDBC driver for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ The PostgreSQL SDBC Driver allows one to use the PostgreSQL database from
+ LibreOffice without any wrapper layer such as ODBC or JDBC.
+
+Package: libreoffice-style-breeze
+Description-md5: 3ab92a18d329c3445b2f7928a5bc555e
+Description-en: office productivity suite -- Breeze symbol style
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the "breeze" symbol style, default style for
+ KDE's Plasma 5.
+
+Package: libreoffice-style-hicontrast
+Description-md5: 07b279fea9dc1f504ef997f9507c51d9
+Description-en: office productivity suite -- Hicontrast symbol style
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the "hicontrast" symbol style, needs to be manually
+ enabled in the LibreOffice option menu.
+
+Package: libreoffice-style-oxygen
+Description-md5: 87c07a1760d5171f3863d8dc426c52d9
+Description-en: office productivity suite -- Oxygen symbol style
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the "oxygen" symbol style, default style for KDE 4.
+
+Package: libreoffice-style-sifr
+Description-md5: 0fd5516a8dab8f6841c284edea8786d7
+Description-en: office productivity suite -- Sifr symbol style
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the "sifr" symbol style (an adaption of the Gnome
+ symbolic theme), needs to be manually  enabled in the LibreOffice option
+ menu.
+
+Package: libreoffice-subsequentcheckbase
+Description-md5: 472ba21116a41f060e278769f9e1684d
+Description-en: LibreOffice java test libraries
+ LibreOffice subsequentchecks integration test suite
+
+Package: libreoffice-wiki-publisher
+Description-md5: a66aaa282ae4941588a4d314d1ebbf79
+Description-en: LibreOffice extension for working with MediaWiki articles
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains an extension to create/edit/publish MediaWiki
+ articles with LibreOffice
+
 Package: libswresample-dev
 Description-md5: 34f0c0961bf2caa9bd7bc04f11f83f53
 Description-en: FFmpeg library for audio resampling, rematrixing etc. - development files
@@ -1416,6 +1624,30 @@ Description-en: MySQL 5.6 testsuite
  .
  This package includes the MySQL testsuite.
 
+Package: nettle-bin
+Description-md5: b9c201f42c4b4fea02c357189015a9c0
+Description-en: low level cryptographic library (binary tools)
+ Nettle is a cryptographic library that is designed to fit easily in more or
+ less any context: In crypto toolkits for object-oriented languages (C++,
+ Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
+ space.
+ .
+ It tries to solve a problem of providing a common set of cryptographic
+ algorithms for higher-level applications by implementing a
+ context-independent set of cryptographic algorithms. In that light, Nettle
+ doesn't do any memory allocation or I/O, it simply provides the
+ cryptographic algorithms for the application to use in any environment and
+ in any way it needs.
+ .
+ This package contains binary utilities that accompany the library:
+ .
+    - nettle-lfib-stream - generates a pseudo-random stream, using the Knuth
+      lfib (non-cryptographic) pseudo-random generator.
+    - sexp-conv - conversion tool for handling the different flavours of sexp
+      syntax.
+    - pkcs1-conv - converts PKCS#1 keys to sexp format.
+    - nettle-hash - command-line tool to compute message digests such as SHA-1.
+
 Package: nginx-extras
 Description-md5: 32c8c4574c8a6ffdd0e2413e41aa3849
 Description-en: nginx web/proxy server (extended version)
@@ -1516,6 +1748,14 @@ Description-en: nginx web/proxy server (basic version) - debugging symbols
  This package provides debugging symbols for nginx-light, to assist in
  debugging issues that you may find. It should not be required for normal
  operation.
+
+Package: nscd
+Description-md5: e8172254ec0df735a3e44c0f557100bc
+Description-en: GNU C Library: Name Service Cache Daemon
+ A daemon which handles passwd, group and host lookups
+ for running programs and caches the results for the next
+ query. You should install this package only if you use
+ slow services like LDAP, NIS or NIS+.
 
 Package: openjdk-6-dbg
 Description-md5: 62cbbd2d3e6bc94279f18db4f735142b

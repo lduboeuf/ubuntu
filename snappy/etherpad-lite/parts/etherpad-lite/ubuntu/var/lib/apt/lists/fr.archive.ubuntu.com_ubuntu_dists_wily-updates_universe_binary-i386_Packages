@@ -2932,17 +2932,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:4.1.17+dfsg-4ubuntu3.1
+Version: 2:4.1.17+dfsg-4ubuntu3.2
 Replaces: libpam-winbind (<< 2:3.6.5-2), samba (<= 2.2.3-2), winbind (<< 2:3.5.11~dfsg-3), winbind4
-Depends: samba-common (= 2:4.1.17+dfsg-4ubuntu3.1), winbind (= 2:4.1.17+dfsg-4ubuntu3.1), libbsd0 (>= 0.0), libc6 (>= 2.4), libtalloc2 (>= 2.0.4~git20101213), libwbclient0 (= 2:4.1.17+dfsg-4ubuntu3.1), samba-libs (= 2:4.1.17+dfsg-4ubuntu3.1)
+Depends: samba-common (= 2:4.1.17+dfsg-4ubuntu3.2), winbind (= 2:4.1.17+dfsg-4ubuntu3.2), libbsd0 (>= 0.0), libc6 (>= 2.4), libtalloc2 (>= 2.0.4~git20101213), libwbclient0 (= 2:4.1.17+dfsg-4ubuntu3.2), samba-libs (= 2:4.1.17+dfsg-4ubuntu3.2)
 Pre-Depends: dpkg (>= 1.15.6~)
 Suggests: libpam-winbind
 Breaks: libpam-winbind (<< 2:3.6.5-2), winbind (<< 2:3.5.11~dfsg-3)
-Filename: pool/universe/s/samba/libnss-winbind_4.1.17+dfsg-4ubuntu3.1_i386.deb
-Size: 13312
-MD5sum: db8b6fb8b91578e779b2426dcd328201
-SHA1: 8dd98149278cb4b7f50802579bc90210bda07456
-SHA256: f803c53b608e1636a70367e150a91a2084e22b100a092657e3d52eae18addbc6
+Filename: pool/universe/s/samba/libnss-winbind_4.1.17+dfsg-4ubuntu3.2_i386.deb
+Size: 13328
+MD5sum: cefb929fc1cd074e146224952a5a7e68
+SHA1: 9ff3a3af04f973975466ef767016899ebdc48af3
+SHA256: 48ebb03e840f42fba1ac1c18c90bd934bdee427d4aecd50a0275d5e78f2093b7
 Description: Samba nameservice integration plugins
 Multi-Arch: same
 Homepage: http://www.samba.org
@@ -2958,18 +2958,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:4.1.17+dfsg-4ubuntu3.1
+Version: 2:4.1.17+dfsg-4ubuntu3.2
 Replaces: samba (<= 2.2.3-2), samba-doc (<< 2:4.0.5~), winbind (<< 2:3.5.11~dfsg-3), winbind4
-Depends: libpam-runtime (>= 1.0.1-6), libpam0g (>= 1.1.3-2~), samba-common (= 2:4.1.17+dfsg-4ubuntu3.1), winbind (= 2:4.1.17+dfsg-4ubuntu3.1), libbsd0 (>= 0.0), libc6 (>= 2.8), libtalloc2 (>= 2.0.4~git20101213), libwbclient0 (>= 2:4.0.3+dfsg1), samba-libs (= 2:4.1.17+dfsg-4ubuntu3.1)
+Depends: libpam-runtime (>= 1.0.1-6), libpam0g (>= 1.1.3-2~), samba-common (= 2:4.1.17+dfsg-4ubuntu3.2), winbind (= 2:4.1.17+dfsg-4ubuntu3.2), libbsd0 (>= 0.0), libc6 (>= 2.8), libtalloc2 (>= 2.0.4~git20101213), libwbclient0 (>= 2:4.0.3+dfsg1), samba-libs (= 2:4.1.17+dfsg-4ubuntu3.2)
 Pre-Depends: dpkg (>= 1.15.6~)
 Suggests: libnss-winbind
 Conflicts: samba-doc (<< 2:4.0.5~)
 Breaks: winbind (<< 2:3.5.11~dfsg-3)
-Filename: pool/universe/s/samba/libpam-winbind_4.1.17+dfsg-4ubuntu3.1_i386.deb
-Size: 27822
-MD5sum: 4884570e55fe99289ae99cfa616157cb
-SHA1: f6a83fe6a40ffb2d5c880b04ff01739a9940231c
-SHA256: a9571977ca3d30306a7d80af87282e15041ce2bafe833cb8e55d39f16505675f
+Filename: pool/universe/s/samba/libpam-winbind_4.1.17+dfsg-4ubuntu3.2_i386.deb
+Size: 27914
+MD5sum: b03d55d85da60b536c6b69cb97c9cdeb
+SHA1: c71feb68a89212d4167372694180d25a76ac4332
+SHA256: cfeab6601f5b4cfb19ab8ecdc6fb855f981353c0957e61907bf4b918db01c981
 Description: Windows domain authentication integration plugin
 Multi-Arch: same
 Homepage: http://www.samba.org
@@ -3088,6 +3088,402 @@ Description-md5: c6ed7c9917aafdc1ed5ecc1810e6f056
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Task: edubuntu-desktop-gnome, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-video, ubuntustudio-publishing, ubuntustudio-photography, ubuntustudio-graphics, ubuntustudio-audio, ubuntukylin-desktop, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: libreoffice
+Priority: optional
+Section: universe/editors
+Installed-Size: 147
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: i386
+Version: 1:5.0.5~rc2-0ubuntu2
+Depends: fonts-sil-gentium-basic, libreoffice-base, libreoffice-calc, libreoffice-core (= 1:5.0.5~rc2-0ubuntu2), libreoffice-draw, libreoffice-impress, libreoffice-math, libreoffice-report-builder-bin, libreoffice-writer, libreoffice-avmedia-backend-gstreamer, libreoffice-java-common (>= 1:5.0.5~rc2~), python3-uno (>= 4.4.0~beta2)
+Recommends: fonts-liberation | ttf-mscorefonts-installer, libpaper-utils, libreoffice-gnome | libreoffice-kde
+Suggests: cups-bsd, hunspell-dictionary, hyphen-hyphenation-patterns, iceweasel | firefox | icedove | thunderbird | iceape-browser | mozilla-browser, imagemagick | graphicsmagick-imagemagick-compat, libgl1, libreoffice-grammarcheck, libreoffice-help-5.0, libreoffice-l10n-5.0, libsane, libxrender1, myspell-dictionary, mythes-thesaurus, openclipart2-libreoffice | openclipart-libreoffice, pstoedit, unixodbc, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-bad, gstreamer1.0-libav, default-jre | gcj-jre | openjdk-7-jre | openjdk-6-jre | sun-java5-jre | sun-java6-jre | java5-runtime | jre, libreoffice-officebean
+Filename: pool/universe/libr/libreoffice/libreoffice_5.0.5~rc2-0ubuntu2_i386.deb
+Size: 26336
+MD5sum: 02688fb3d565bd1ea92748aa54bdd001
+SHA1: fba191a4c9b97861c75593b46ea4ca31d22c6847
+SHA256: 4e7e11a96ead9080b70098883844c5d33bae2d0aec01391f2f6ea280535fb3f5
+Description: office productivity suite (metapackage)
+Homepage: http://www.libreoffice.org
+Description-md5: 69d7556a53642b01f6e6383cd4447bc4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-gtk3
+Priority: optional
+Section: universe/gnome
+Installed-Size: 669
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: i386
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Depends: libreoffice-core (= 1:5.0.5~rc2-0ubuntu2), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.10.0), libdbus-glib-1-2 (>= 0.78), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.13.7), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.9), libx11-6, uno-libs3 (>= 4.4.0~alpha), ure
+Recommends: libreoffice-style-human | libreoffice-style-tango
+Filename: pool/universe/libr/libreoffice/libreoffice-gtk3_5.0.5~rc2-0ubuntu2_i386.deb
+Size: 197314
+MD5sum: 305c992ec43617870d79ae8cbfe09ce0
+SHA1: 9e47fbfa236882c4136c860a7db1c8576c63bbb7
+SHA256: 6e2d6ebf52fac29f5fa8f975d84ca951452ba7b7292d1cdd962d9c53a666d3ea
+Description: office productivity suite -- GTK+ 3.0 integration
+Enhances: libreoffice
+Homepage: http://www.libreoffice.org
+Description-md5: 4e56e2ffd158c495dc1ce183adb83df3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-kde
+Priority: optional
+Section: universe/kde
+Installed-Size: 390
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: i386
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Replaces: libreoffice-core (= 1:3.5.0~beta2-1), libreoffice-core (= 1:4.3.0~beta1-1), openoffice.org-kde (<< 1:3.3.0~)
+Depends: libreoffice-core (= 1:5.0.5~rc2-0ubuntu2), kde-runtime, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.15.0), libkdecore5 (>= 4:4.3.4), libkdeui5 (>= 4:4.3.4), libkfile4 (>= 4:4.3.4), libkio5 (>= 4:4.3.4), libqtcore4 (>= 4:4.8), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.9), libx11-6, uno-libs3 (>= 4.4.0~alpha), ure
+Recommends: libreoffice-style-breeze
+Suggests: kmail, konqueror, libreoffice-kab
+Filename: pool/universe/libr/libreoffice/libreoffice-kde_5.0.5~rc2-0ubuntu2_i386.deb
+Size: 104844
+MD5sum: 32a6160d804465d70fe4c4ec8ccdb47e
+SHA1: d8065970c7f441aa981da4d078e7c56b99a6a29e
+SHA256: d5e86e354532e3a33a06018663b3c028f6e1dfc3d633931e6833c2d99dbde20a
+Description: office productivity suite -- KDE integration
+Enhances: libreoffice
+Homepage: http://www.libreoffice.org
+Description-md5: 055bef0d629659ffd2957ff1a774c681
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Task: kubuntu-desktop, kubuntu-full
+
+Package: libreoffice-librelogo
+Priority: optional
+Section: universe/misc
+Installed-Size: 265
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Depends: libreoffice-core (>= 1:3.4~), libreoffice-script-provider-python, libreoffice-writer
+Filename: pool/universe/libr/libreoffice/libreoffice-librelogo_5.0.5~rc2-0ubuntu2_all.deb
+Size: 50846
+MD5sum: 7f7a9891b1c4955bb65b3db51a60d1e2
+SHA1: 76a163764778d7a753728ba6546e37746bc30d3d
+SHA256: 85db7823ab69df1cb518b9775e8d4d028df14feaf367c7e902e308769471679c
+Description: Logo-like progamming language for LibreOffice
+Homepage: http://librelogo.org
+Description-md5: 71fe1726b20ed521137fe79b55cd374b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-mysql-connector
+Priority: optional
+Section: universe/misc
+Installed-Size: 617
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: i386
+Source: libreoffice (1:5.0.5~rc2-0ubuntu2)
+Version: 1.0.2+LibO5.0.5~rc2-0ubuntu2
+Depends: libreoffice-core, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libmysqlcppconn7v5, libstdc++6 (>= 5.2), uno-libs3 (>= 4.4.0~alpha), ure
+Suggests: mariadb-server | mysql-server (>= 5.1)
+Conflicts: libreoffice-common (<< 1:3.5~), libreoffice-core (<< 1:3.5~), ure (<< 1.5.1+OOo3.1.1-15)
+Filename: pool/universe/libr/libreoffice/libreoffice-mysql-connector_1.0.2+LibO5.0.5~rc2-0ubuntu2_i386.deb
+Size: 129402
+MD5sum: 0a59fe06288ce88050e53261dee4d1c3
+SHA1: 9b249f6dc86ae7ac9dea634f30b64d31aa763139
+SHA256: cec147692d147525b8ca0ce36512ada1ea5d6b2e9a7ba27bd26efc843c797844
+Description: MariaDB/MySQL Connector extension for LibreOffice
+Homepage: http://extensions.services.openoffice.org/en/project/mysql_connector
+Description-md5: a911b8b20116e62af2fea609f2117a03
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-report-builder
+Priority: optional
+Section: universe/misc
+Installed-Size: 2662
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Provides: libreoffice-reportdesigner
+Depends: libreoffice-core, libreoffice-java-common, libreoffice-report-builder-bin (>= 1:5.0.5~rc2), libcommons-logging-java (>= 1.1.1-9)
+Pre-Depends: default-jre | gcj-jre | openjdk-7-jre | openjdk-6-jre | sun-java5-jre | sun-java6-jre | java5-runtime | jre
+Conflicts: libreoffice-common (<< 1:3.5~), libreoffice-core (<< 1:3.5~), ure (<< 1.5.1+OOo3.1.1-15)
+Filename: pool/universe/libr/libreoffice/libreoffice-report-builder_5.0.5~rc2-0ubuntu2_all.deb
+Size: 2082462
+MD5sum: 345c6cb188515d15f325cb317df2e00c
+SHA1: 2858f5e60ce9e071719510976521ab6acb0a44a6
+SHA256: aca01fe837d4f33ad82006fe324e02394301c34f57555d7aed1e9054834ed6a4
+Description: LibreOffice component for building database reports
+Enhances: libreoffice-base
+Homepage: http://www.libreoffice.org
+Description-md5: 8239ceaa4ebaf25c2b15325d48eb907c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-report-builder-bin
+Priority: optional
+Section: universe/misc
+Installed-Size: 2928
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: i386
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Depends: libreoffice-base, libreoffice-core, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), uno-libs3 (>= 4.4.0~alpha), ure
+Filename: pool/universe/libr/libreoffice/libreoffice-report-builder-bin_5.0.5~rc2-0ubuntu2_i386.deb
+Size: 788652
+MD5sum: 41dbcbb407050066e3b73d79a74f0eb7
+SHA1: 302e800bbb23efcc5b79cc1685a3025cf92329df
+SHA256: 8db07960bb07fffe5c504b663a7ea62fad681fca8d05ba6caab7902106ef05b8
+Description: LibreOffice component for building database reports -- libraries
+Homepage: http://www.libreoffice.org
+Description-md5: 4de9416ad29a7951be39b95f83055e84
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-script-provider-bsh
+Priority: optional
+Section: universe/java
+Installed-Size: 218
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Replaces: libreoffice-java-common (<< 1:3.4~)
+Depends: libreoffice-common (>= 1:3.5.0~alpha0~), libreoffice-core (>= 1:3.5.0~alpha0~), libreoffice-java-common, libbsh-java, default-jre | gcj-jre | openjdk-7-jre | openjdk-6-jre | sun-java5-jre | sun-java6-jre | java5-runtime | jre
+Filename: pool/universe/libr/libreoffice/libreoffice-script-provider-bsh_5.0.5~rc2-0ubuntu2_all.deb
+Size: 46602
+MD5sum: 05d7868fc2c5014aa96d7b52dc56d3b7
+SHA1: 1df740107cf1bb0241234780e8c8504bef2cfce9
+SHA256: 7e11839a78c87ccc1dd93b2f7fc73bd6996db6d6c514434530981cad01a53604
+Description: BeanShell script support provider for LibreOffice scripting framework
+Homepage: http://www.libreoffice.org
+Description-md5: 720bef09745ce9eb4902772fb5c437d8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-script-provider-js
+Priority: optional
+Section: universe/web
+Installed-Size: 799
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Replaces: libreoffice-common (<< 1:3.4~)
+Depends: libreoffice-common (>= 1:3.5.0~alpha0~), libreoffice-core (>= 1:3.5.0~alpha0~), libreoffice-java-common, default-jre | gcj-jre | openjdk-7-jre | openjdk-6-jre | sun-java5-jre | sun-java6-jre | java5-runtime | jre
+Filename: pool/universe/libr/libreoffice/libreoffice-script-provider-js_5.0.5~rc2-0ubuntu2_all.deb
+Size: 629122
+MD5sum: 7e0c9d25612e1ef2dc24abbe51a83ef7
+SHA1: f8ec76be4a014ae9898f37c6b08931ad36428c37
+SHA256: ef023f386f6046646d9e366a19d26a521fcb959960fba05f16f0b0f0428ce4ff
+Description: JavaScript script support provider for LibreOffice scripting framework
+Homepage: http://www.libreoffice.org
+Description-md5: 41b18315e9be2aaa24a28415b907118e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-script-provider-python
+Priority: optional
+Section: universe/python
+Installed-Size: 188
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Replaces: python-uno (<< 1:3.5.2-2), python3-uno (<< 1:3.5.2-2)
+Depends: libreoffice-common (>= 1:3.5.0~alpha0~), libreoffice-core (>= 1:3.5.0~alpha0~), python3-uno (>= 4.4.0~beta2)
+Breaks: libreoffice-common (<< 1:3.5~), libreoffice-core (<< 1:3.5~)
+Filename: pool/universe/libr/libreoffice/libreoffice-script-provider-python_5.0.5~rc2-0ubuntu2_all.deb
+Size: 29598
+MD5sum: b7025097d4551d64a1880e224e1717c3
+SHA1: db45df3b59b52324eb176c28fb343f718f513f15
+SHA256: 1700b30f4d42b86e0e41f431a817896289cfa7537db86895c646aeb7e9429089
+Description: Python script support provider for LibreOffice scripting framework
+Homepage: http://www.libreoffice.org
+Description-md5: 019117f2dc708fc6c1179714b81e2076
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-sdbc-postgresql
+Priority: optional
+Section: universe/misc
+Installed-Size: 950
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: i386
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Depends: libreoffice-core (>= 1:3.5.0~beta), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libpq5 (>= 9.0~), libstdc++6 (>= 4.8), uno-libs3 (>= 4.4.0~alpha), ure
+Suggests: postgresql (>= 8.4)
+Breaks: ure (<< 1.5.1+OOo3.1.1-15)
+Filename: pool/universe/libr/libreoffice/libreoffice-sdbc-postgresql_5.0.5~rc2-0ubuntu2_i386.deb
+Size: 241998
+MD5sum: ddaf0091e8d6bc4b2f155aa4457d03ab
+SHA1: f29bb5f842dbd2051c40976d86431c7174a0731f
+SHA256: 19b33f52ceae2a1f85c4b2cda053baa8a6082ae452cdd4f2ccbff5284a551e9a
+Description: PostgreSQL SDBC driver for LibreOffice
+Enhances: libreoffice-base-drivers
+Homepage: http://wiki.documentfoundation.org/PostgreSQL-SDBC
+Description-md5: 06f71158aa78dbe7201679601bd1279b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-style-breeze
+Priority: optional
+Section: universe/editors
+Installed-Size: 1080
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Provides: libreoffice-style
+Depends: libreoffice-style-galaxy
+Suggests: breeze-icon-theme
+Filename: pool/universe/libr/libreoffice/libreoffice-style-breeze_5.0.5~rc2-0ubuntu2_all.deb
+Size: 367904
+MD5sum: 25a80248345ddedea1e90f35a392a375
+SHA1: 845373ae08e42b6223aca8385a0b8882ea1af90e
+SHA256: 8bde6223aa7da7fbebee5ef3d36b8b37217dcb18a6f8ea99736303ae204428ef
+Description: office productivity suite -- Breeze symbol style
+Enhances: libreoffice-core
+Homepage: http://www.libreoffice.org
+Description-md5: 3ab92a18d329c3445b2f7928a5bc555e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Task: kubuntu-desktop, kubuntu-full
+
+Package: libreoffice-style-hicontrast
+Priority: optional
+Section: universe/editors
+Installed-Size: 1005
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Replaces: libreoffice-common (<< 1:3.3.0~rc4-2)
+Provides: libreoffice-style
+Suggests: gtk2-engines
+Filename: pool/universe/libr/libreoffice/libreoffice-style-hicontrast_5.0.5~rc2-0ubuntu2_all.deb
+Size: 359080
+MD5sum: a658460fe14f20b6f2afde5ae21bc115
+SHA1: 6634783c2a6140e1019275b85f3f9a1dc9ed82e8
+SHA256: 533b8cc4ea55b322f65e7338c3d9c595f40ec8341554fdfd1909c671e12acf25
+Description: office productivity suite -- Hicontrast symbol style
+Enhances: libreoffice-core
+Homepage: http://www.libreoffice.org
+Description-md5: 07b279fea9dc1f504ef997f9507c51d9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-style-oxygen
+Priority: optional
+Section: universe/editors
+Installed-Size: 2080
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Replaces: libreoffice-common (<< 1:3.3.0~rc4-2)
+Provides: libreoffice-style
+Depends: libreoffice-style-galaxy
+Suggests: kde-icons-oxygen, oxygencursors
+Filename: pool/universe/libr/libreoffice/libreoffice-style-oxygen_5.0.5~rc2-0ubuntu2_all.deb
+Size: 1350068
+MD5sum: da921e6a8025ef3aa88d7563338667d1
+SHA1: 575b04661593c751c01d1ae7f83c22761e78039f
+SHA256: 5f575d617613250113fd493abfb5597b7bff2949571d3743916fabf029115bcc
+Description: office productivity suite -- Oxygen symbol style
+Enhances: libreoffice-core
+Homepage: http://www.libreoffice.org
+Description-md5: 87c07a1760d5171f3863d8dc426c52d9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Task: kubuntu-desktop, kubuntu-full
+
+Package: libreoffice-style-sifr
+Priority: optional
+Section: universe/editors
+Installed-Size: 682
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Provides: libreoffice-style
+Depends: libreoffice-style-galaxy
+Filename: pool/universe/libr/libreoffice/libreoffice-style-sifr_5.0.5~rc2-0ubuntu2_all.deb
+Size: 291486
+MD5sum: 7710163c3fc76bbb87b85aa9bbb54b40
+SHA1: 137342dc7d5d159934b1fca274aed1aba1f461f8
+SHA256: 95677aa158625eaf6f7cc6b6ed74f66f4d4d9eaf5a6553552055ec1925719ea5
+Description: office productivity suite -- Sifr symbol style
+Enhances: libreoffice-core
+Homepage: http://www.libreoffice.org
+Description-md5: 0fd5516a8dab8f6841c284edea8786d7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-subsequentcheckbase
+Priority: extra
+Section: universe/libs
+Installed-Size: 3513
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice
+Version: 1:5.0.5~rc2-0ubuntu2
+Depends: ant (>= 1.7.0), ant-optional (>= 1.7.0), autoconf, automake, bc, bison, build-essential, bzip2, cpp-5, debhelper (>= 7.2.3~), default-jdk, dh-python, doxygen (>= 1.8.4), dpkg-dev (>= 1.16.1), fastjar, flex (>= 2.3.35), fontconfig, fontforge, fonts-liberation, gdb, gettext, gperf, java-common (>= 0.49), javahelper (>= 0.37~), junit4 (>= 4.8.2-2), kdelibs5-dev (>= 4:4.3.4), libabw-dev (>= 0.1), libarchive-zip-perl, libbluetooth-dev, libboost-date-time-dev (>= 1.58), libboost-dev (>= 1.58), libboost-iostreams-dev (>= 1.58), libbsh-java, libcairo2-dev, libcdr-dev (>= 0.1), libclucene-dev (>= 2.3.3.4-4.1), libcmis-dev (>= 0.5.0-3ubuntu1), libcommons-codec-java, libcommons-httpclient-java, libcommons-lang-java, libcommons-logging-java (>= 1.1.1-9), libcppunit-dev (>= 1.13.2-2.1), libcups2-dev, libcurl4-gnutls-dev, libdbus-glib-1-dev (>= 0.70), libe-book-dev (>= 0.1.1), libeot-dev, libetonyek-dev (>= 0.1.2), libexpat1-dev, libexttextcat-dev (>= 3.1.1), libfontconfig1-dev, libfreehand-dev (>= 0.1), libfreetype6-dev (>= 2.2.0), libgconf2-dev, libgl1-mesa-dev, libglew-dev, libglib2.0-dev (>= 2.15.0), libglm-dev (>= 0.9.6.3), libglu1-mesa-dev, libgraphite2-dev (>= 0.9.3), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libgtk-3-dev (>= 3.8~), libgtk2.0-dev (>= 2.10), libharfbuzz-dev (>= 0.9.18), libhsqldb1.8.0-java (>> 1.8.0.10), libhunspell-dev (>= 1.1.5-2), libhyphen-dev (>= 2.4), libice-dev, libicu-dev (>= 52), libjpeg-dev, liblangtag-dev (>= 0.4), liblcms2-dev, libldap2-dev, liblpsolve55-dev (>= 5.5.0.13-5+b1), libmdds-dev (>= 0.12), libmspub-dev (>= 0.1), libmwaw-dev (>= 0.3.5), libmysqlclient-dev, libmysqlcppconn-dev (>= 1.1.3-6ubuntu1), libmythes-dev (>= 2:1.2), libneon27-gnutls-dev, libnss3-dev (>= 3.12.3), libodfgen-dev (>= 0.1), liborcus-dev (>= 0.9.2-2), libpagemaker-dev, libpng12-dev, libpoppler-cpp-dev, libpoppler-dev (>= 0.12.0), libpoppler-private-dev, libpq-dev (>= 9.0~), libqt4-dev (>= 4:4.8), librdf0-dev (>= 1.0.16-2), libreoffice, librevenge-dev, libsane-dev, libsm-dev, libssl-dev (>= 0.9.8), libsuitesparse-dev (>= 1:3.4.0), libvigraimpex-dev, libvisio-dev (>= 0.1), libwpd-dev (>= 0.10), libwpg-dev (>= 0.3), libwps-dev (>= 0.4), libx11-dev, libxaw7-dev, libxext-dev, libxinerama-dev, libxkbfile-dev, libxml2-dev, libxml2-utils, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, libxtst-dev, lp-solve (>= 5.5.0.13-5+b1), make (>= 3.81-8.2), maven-repo-helper, openjdk-7-jdk, pkg-config, python3, python3-dev (>= 3.3), unixodbc-dev (>= 2.2.11), unzip, x11proto-render-dev, xsltproc, zip, zlib1g-dev
+Filename: pool/universe/libr/libreoffice/libreoffice-subsequentcheckbase_5.0.5~rc2-0ubuntu2_all.deb
+Size: 3022110
+MD5sum: 72d66b68e8919130554a8a7675160404
+SHA1: 5467a363645d288dd66fe817a9ee427dfdea083e
+SHA256: d6f4695ab2d8cfe3987df270530ded2ddb984454ec9459b90ebe3b0f47903e3b
+Description: LibreOffice java test libraries
+Homepage: http://www.libreoffice.org
+Description-md5: 472ba21116a41f060e278769f9e1684d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libreoffice-wiki-publisher
+Priority: optional
+Section: universe/misc
+Installed-Size: 664
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: libreoffice (1:5.0.5~rc2-0ubuntu2)
+Version: 1.1.2+LibO5.0.5~rc2-0ubuntu2
+Depends: libreoffice-core (>= 1:3.4~), libreoffice-java-common, libcommons-codec-java, libcommons-httpclient-java, libcommons-logging-java, libcommons-lang-java
+Pre-Depends: default-jre | gcj-jre | openjdk-7-jre | openjdk-6-jre | sun-java5-jre | sun-java6-jre | java5-runtime | jre
+Suggests: mediawiki
+Conflicts: libreoffice-common (<< 1:3.5~), libreoffice-core (<< 1:3.5~), ure (<< 1.5.1+OOo3.1.1-15)
+Filename: pool/universe/libr/libreoffice/libreoffice-wiki-publisher_1.1.2+LibO5.0.5~rc2-0ubuntu2_all.deb
+Size: 125728
+MD5sum: 70de6ff019cc3bf22877d490363e58a2
+SHA1: 774b6f907d14f519dcbed4f8dfbb7bf24ea2a555
+SHA256: adf56e222dabc061109a241a94d2c4ca51846872afcb15c2e3155a73aa218b17
+Description: LibreOffice extension for working with MediaWiki articles
+Enhances: libreoffice-writer
+Homepage: http://extensions.services.openoffice.org/project/wikipublisher
+Description-md5: a66aaa282ae4941588a4d314d1ebbf79
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 
 Package: libswresample-dev
 Priority: optional
@@ -3783,6 +4179,30 @@ Description-md5: 26373c621bdb00986d716853280c567b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: nettle-bin
+Priority: optional
+Section: universe/misc
+Installed-Size: 81
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Magnus Holmgren <holmgren@debian.org>
+Architecture: i386
+Source: nettle
+Version: 3.1.1-4ubuntu0.1
+Replaces: lsh-utils (<< 2.0.4-dfsg-1)
+Depends: libc6 (>= 2.4), libgmp10, libhogweed4, libnettle6 (= 3.1.1-4ubuntu0.1)
+Suggests: lsh-doc
+Breaks: lsh-utils (<< 2.0.4-dfsg-1)
+Filename: pool/universe/n/nettle/nettle-bin_3.1.1-4ubuntu0.1_i386.deb
+Size: 24928
+MD5sum: c41bccca00c2c22669c1f3584e508617
+SHA1: 2bd20c43f7514c57da05bb74d106547603e3842e
+SHA256: 1338bf6bebe778c46689ed39911dd2b955b51032616a21317834dfd709052ff0
+Description: low level cryptographic library (binary tools)
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Description-md5: b9c201f42c4b4fea02c357189015a9c0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: nginx-extras
 Priority: optional
 Section: universe/httpd
@@ -3941,6 +4361,28 @@ SHA1: c0e12701ea75abb9e47a864be3d7d1280dff1321
 SHA256: 1845e779cdee794fca9a2a5bb802eb42786a68ef7dffdd68e050c5eaeee9dde7
 Description: Openstack Compute - LXD container support
 Description-md5: da757e3bcf97d40528c5fe14b22ab55a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nscd
+Priority: optional
+Section: universe/admin
+Installed-Size: 378
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Source: glibc
+Version: 2.21-0ubuntu4.1
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>> 2.21), libc6 (<< 2.22), libcap2 (>= 1:2.10), libselinux1 (>= 2.0.82)
+Filename: pool/universe/g/glibc/nscd_2.21-0ubuntu4.1_i386.deb
+Size: 72904
+MD5sum: d253610ed7dc070b40ce3497c88070e7
+SHA1: d584b10252c3215a3df8ebbc66e21eb5d7888b64
+SHA256: a20370636196d3e28711e12ff9af2677d5183802a0969282fb527ecb9e095c3e
+Description: GNU C Library: Name Service Cache Daemon
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/libc/libc.html
+Description-md5: e8172254ec0df735a3e44c0f557100bc
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -5307,15 +5749,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:4.1.17+dfsg-4ubuntu3.1
+Version: 2:4.1.17+dfsg-4ubuntu3.2
 Replaces: samba-doc (<< 2:4.0.5~)
-Depends: libc6 (>= 2.8), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libtalloc2 (>= 2.0.4~git20101213), samba-libs (= 2:4.1.17+dfsg-4ubuntu3.1)
+Depends: libc6 (>= 2.8), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libtalloc2 (>= 2.0.4~git20101213), samba-libs (= 2:4.1.17+dfsg-4ubuntu3.2)
 Conflicts: samba-doc (<< 2:4.0.5~)
-Filename: pool/universe/s/samba/registry-tools_4.1.17+dfsg-4ubuntu3.1_i386.deb
-Size: 28770
-MD5sum: 34e157637996c379c709ef5762ce18e2
-SHA1: bb3ea96ed07d476994da2e964c11ab233666fb5c
-SHA256: 02481da4751e6d7b5048bb12112cca3e1879ff0bcca8f3f612b862beb9f9b777
+Filename: pool/universe/s/samba/registry-tools_4.1.17+dfsg-4ubuntu3.2_i386.deb
+Size: 28884
+MD5sum: c740e9736e36b75f5e5724758744c343
+SHA1: 9809b7d081c4dbedd19d8480504805b9f89a9297
+SHA256: 080a8cae36b8fc17c0917e8a4d502c9349e812deae5b1f8b617251f23f1e7156
 Description: tools for viewing and manipulating the Windows registry
 Homepage: http://www.samba.org
 Description-md5: 7266dad7d5ee9360537ffc04ec7157f3
@@ -5417,16 +5859,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:4.1.17+dfsg-4ubuntu3.1
+Version: 2:4.1.17+dfsg-4ubuntu3.2
 Replaces: samba-doc (<< 2:4.0.5~), samba-libs (<< 2:4.0.10+dfsg-4), samba-tools, samba4-testsuite
-Depends: samba-common-bin, libasn1-8-heimdal (>= 1.4.0+git20110226), libbsd0 (>= 0.0), libc6 (>= 2.8), libhcrypto4-heimdal (>= 1.4.0+git20110226), libhx509-5-heimdal (>= 1.4.0+git20110226), libkrb5-26-heimdal (>= 1.4.0+git20110226), libldb1 (>= 0.9.21), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libroken18-heimdal (>= 1.4.0+git20110226), libsmbclient (>= 2:4.0.3+dfsg1), libsubunit0, libtalloc2 (>= 2.0.8), libtdb1 (>= 1.2.7+git20101214), libtevent0 (>= 0.9.16), libwbclient0 (= 2:4.1.17+dfsg-4ubuntu3.1), samba-libs (= 2:4.1.17+dfsg-4ubuntu3.1)
+Depends: samba-common-bin, libasn1-8-heimdal (>= 1.4.0+git20110226), libbsd0 (>= 0.0), libc6 (>= 2.8), libhcrypto4-heimdal (>= 1.4.0+git20110226), libhx509-5-heimdal (>= 1.4.0+git20110226), libkrb5-26-heimdal (>= 1.4.0+git20110226), libldb1 (>= 0.9.21), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libroken18-heimdal (>= 1.4.0+git20110226), libsmbclient (>= 2:4.0.3+dfsg1), libsubunit0, libtalloc2 (>= 2.0.8), libtdb1 (>= 1.2.7+git20101214), libtevent0 (>= 0.9.16), libwbclient0 (= 2:4.1.17+dfsg-4ubuntu3.2), samba-libs (= 2:4.1.17+dfsg-4ubuntu3.2)
 Recommends: subunit
 Conflicts: samba-doc (<< 2:4.0.5~), samba-libs (<< 2:4.0.10+dfsg-4)
-Filename: pool/universe/s/samba/samba-testsuite_4.1.17+dfsg-4ubuntu3.1_i386.deb
-Size: 1415374
-MD5sum: f4c439d8927ec0a15512730924e9c4dc
-SHA1: fd0b96dbd58253b7723505fb6995ee6afe57d383
-SHA256: 5936d0dabe1d4b51509c9de5a5ff1fbc10d492ea474f2c97a3906eb4b8dc1311
+Filename: pool/universe/s/samba/samba-testsuite_4.1.17+dfsg-4ubuntu3.2_i386.deb
+Size: 1417948
+MD5sum: 62c1ff7c4977028f64cde7a02ab76b62
+SHA1: cd82c0afdf58c1d1265e1f6a8e89638b16550819
+SHA256: 551fabe0da909ff657a5bd3c4ae9b8b3416410c902d260a48daf658f0cab4928
 Description: test suite from Samba
 Homepage: http://www.samba.org
 Description-md5: 9909252a54b8d1689d0ad0af3791b792
