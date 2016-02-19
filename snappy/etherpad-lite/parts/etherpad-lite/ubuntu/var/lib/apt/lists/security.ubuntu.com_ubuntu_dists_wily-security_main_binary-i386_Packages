@@ -4553,6 +4553,94 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 9m
 
+Package: libgraphite2-3
+Priority: optional
+Section: libs
+Installed-Size: 139
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Team <debian-openoffice@lists.debian.org>
+Architecture: i386
+Source: graphite2
+Version: 1.2.4-3ubuntu1.1
+Replaces: libgraphite2-2.0.0
+Provides: libgraphite2-2.0.0
+Depends: libc6 (>= 2.1.3)
+Breaks: libgraphite2-2.0.0 (<< 1.2.0)
+Filename: pool/main/g/graphite2/libgraphite2-3_1.2.4-3ubuntu1.1_i386.deb
+Size: 56542
+MD5sum: f350e31556f77ea408715be83eeabc2b
+SHA1: e9806a8f5c3ca701c28b3adfda63fc3c4398b567
+SHA256: f809eb39fbcac01f48b14e4deab97329a394e0bdb18b3611d6115d381bcec4aa
+Description: Font rendering engine for Complex Scripts -- library
+Multi-Arch: same
+Description-md5: 68d1591bf212ce8230272a42a5738b72
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop, ubuntustudio-font-meta, ubuntustudio-desktop-minimal, ubuntu-gnome-desktop, ubuntu-sdk-libs, ubuntu-touch, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: libgraphite2-3-dbg
+Priority: extra
+Section: debug
+Installed-Size: 488
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Team <debian-openoffice@lists.debian.org>
+Architecture: i386
+Source: graphite2
+Version: 1.2.4-3ubuntu1.1
+Depends: libgraphite2-3 (= 1.2.4-3ubuntu1.1)
+Filename: pool/main/g/graphite2/libgraphite2-3-dbg_1.2.4-3ubuntu1.1_i386.deb
+Size: 458128
+MD5sum: 59a6e21855c75e366acf098db642af94
+SHA1: 49906cb95356f96124d9070af1ccd36aa6a11f7a
+SHA256: a4f26a46cabd8c6556ee9449d31fdee470b61773c85cf8507336936f42e3e2be
+Description: Debug symbols for libgraphite2
+Description-md5: 014e4150f06b5c7cc832e2cdcce8f9c7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: libgraphite2-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 74
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Team <debian-openoffice@lists.debian.org>
+Architecture: i386
+Source: graphite2
+Version: 1.2.4-3ubuntu1.1
+Depends: libgraphite2-3 (= 1.2.4-3ubuntu1.1)
+Filename: pool/main/g/graphite2/libgraphite2-dev_1.2.4-3ubuntu1.1_i386.deb
+Size: 14352
+MD5sum: 5a962035228132a265eb253bec7adce7
+SHA1: d73174de885197f1cb342432dcebe6c8dbd95e22
+SHA256: 6d69f5cdedc3a7868f98685c1b96be3552603858871469a4b5b82ccc238542b5
+Description: Development files for libgraphite2
+Description-md5: 7f19707ec760b78fb24460b38ecf78bd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: libgraphite2-doc
+Priority: optional
+Section: doc
+Installed-Size: 1413
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Team <debian-openoffice@lists.debian.org>
+Architecture: all
+Source: graphite2
+Version: 1.2.4-3ubuntu1.1
+Filename: pool/main/g/graphite2/libgraphite2-doc_1.2.4-3ubuntu1.1_all.deb
+Size: 528940
+MD5sum: 3ce16d5154d8da2051014f2bec31229e
+SHA1: e399f9eb12774d60d9783a3a592c6df84bc9cb0b
+SHA256: 961aedf276b89985576679ccbd4f13d39c7083ed0f33b8e1ddad094f6da0d21a
+Description: Documentation for libgraphite2
+Description-md5: b0b3ea4dd05ea53f9d34d1f006dde09b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
 Package: libgssapi-krb5-2
 Priority: standard
 Section: libs
@@ -5473,19 +5561,19 @@ Supported: 9m
 Package: libnss3
 Priority: optional
 Section: libs
-Installed-Size: 3748
+Installed-Size: 3751
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: nss
-Version: 2:3.19.2.1-0ubuntu0.15.10.2
+Version: 2:3.21-0ubuntu0.15.10.1
 Depends: libc6 (>= 2.4), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 4.8.6), libsqlite3-0 (>= 3.5.9), zlib1g (>= 1:1.1.4), libnss3-nssdb
 Conflicts: libnss3-1d (<< 2:3.13.4-2)
-Filename: pool/main/n/nss/libnss3_3.19.2.1-0ubuntu0.15.10.2_i386.deb
-Size: 1189934
-MD5sum: a718371d8eed9fc283b15aa4df9bf491
-SHA1: 6ff88f094c4853cf85d835d8aaf99d9801e41daf
-SHA256: 5f641eecbd3dcb9f3ca9162c96296fb31ead54cd243f508311a91e35c1949300
+Filename: pool/main/n/nss/libnss3_3.21-0ubuntu0.15.10.1_i386.deb
+Size: 1187102
+MD5sum: 6ea984710e043f0beca28f36374fc8c0
+SHA1: 023672662b230eed6543ae95d95f922a2f6b9845
+SHA256: abed0c1b05a97ccd9cc74066c500d03d555db431b190200c93c80994b007aff8
 Description: Network Security Service libraries
 Multi-Arch: same
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
@@ -5503,13 +5591,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: nss
-Version: 2:3.19.2.1-0ubuntu0.15.10.2
-Depends: libnss3 (= 2:3.19.2.1-0ubuntu0.15.10.2)
-Filename: pool/main/n/nss/libnss3-1d_3.19.2.1-0ubuntu0.15.10.2_i386.deb
-Size: 9304
-MD5sum: 69bd98e9b416562f67124606c747b620
-SHA1: d336fa3502e87170d20a8aac63eda81f05e7ed60
-SHA256: 3d00ad529610389df18f7303424a79a407933c24c695cd912509cdfeda1d1eef
+Version: 2:3.21-0ubuntu0.15.10.1
+Depends: libnss3 (= 2:3.21-0ubuntu0.15.10.1)
+Filename: pool/main/n/nss/libnss3-1d_3.21-0ubuntu0.15.10.1_i386.deb
+Size: 9298
+MD5sum: bfa757f1b75ec5f19a048c4c25a4b01f
+SHA1: caea996124a28276973776d2d58d5c9d0956afe9
+SHA256: b7279560613bad4b53d847f536617722683e1587da8635b0094ea165393561a6
 Description: Network Security Service libraries - transitional package
 Multi-Arch: same
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
@@ -5522,20 +5610,20 @@ Task: ubuntu-live, ubuntu-usb-live, kubuntu-live, edubuntu-live, edubuntu-usb-li
 Package: libnss3-dbg
 Priority: extra
 Section: debug
-Installed-Size: 8207
+Installed-Size: 8225
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: nss
-Version: 2:3.19.2.1-0ubuntu0.15.10.2
+Version: 2:3.21-0ubuntu0.15.10.1
 Provides: libnss3-1d-dbg
-Depends: libnss3 (= 2:3.19.2.1-0ubuntu0.15.10.2) | libnss3-tools (= 2:3.19.2.1-0ubuntu0.15.10.2)
-Conflicts: libnss3 (>> 2:3.19.2.1-0ubuntu0.15.10.2), libnss3 (<< 2:3.19.2.1-0ubuntu0.15.10.2), libnss3-tools (>> 2:3.19.2.1-0ubuntu0.15.10.2), libnss3-tools (<< 2:3.19.2.1-0ubuntu0.15.10.2)
-Filename: pool/main/n/nss/libnss3-dbg_3.19.2.1-0ubuntu0.15.10.2_i386.deb
-Size: 6903304
-MD5sum: 87be78e893e5d5b48806cb181f6470a9
-SHA1: 75b168a8d7b68b4d9f892a056a47c21260b083f5
-SHA256: c7d05def4e8df576ee5b8539d273d8b8f6fbd18687f7b97c43bdd08d74b68224
+Depends: libnss3 (= 2:3.21-0ubuntu0.15.10.1) | libnss3-tools (= 2:3.21-0ubuntu0.15.10.1)
+Conflicts: libnss3 (>> 2:3.21-0ubuntu0.15.10.1), libnss3 (<< 2:3.21-0ubuntu0.15.10.1), libnss3-tools (>> 2:3.21-0ubuntu0.15.10.1), libnss3-tools (<< 2:3.21-0ubuntu0.15.10.1)
+Filename: pool/main/n/nss/libnss3-dbg_3.21-0ubuntu0.15.10.1_i386.deb
+Size: 6925516
+MD5sum: bb4b7a63ab71703d0f42023b9f9703de
+SHA1: 016834da0b7c10a73c37332526c57bacd0592923
+SHA256: 45d84de02808a79f3e7c535c06fe4cd8ba7bfb9486f7074fc0746b1c2f033f20
 Description: Debugging symbols for the Network Security Service libraries
 Multi-Arch: same
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
@@ -5547,18 +5635,18 @@ Supported: 9m
 Package: libnss3-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 1324
+Installed-Size: 1335
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: nss
-Version: 2:3.19.2.1-0ubuntu0.15.10.2
-Depends: libnss3 (= 2:3.19.2.1-0ubuntu0.15.10.2), libnspr4-dev (>= 4.6.6-1)
-Filename: pool/main/n/nss/libnss3-dev_3.19.2.1-0ubuntu0.15.10.2_i386.deb
-Size: 228072
-MD5sum: c00c1b653cb7d5c15656be2c4773edf1
-SHA1: 468c3e3fa041c4d56342bddfff8fea154bb896cc
-SHA256: 337a9137433003cde66ec00f51ecb619e2e7bf79e5852ebd861983177765d827
+Version: 2:3.21-0ubuntu0.15.10.1
+Depends: libnss3 (= 2:3.21-0ubuntu0.15.10.1), libnspr4-dev (>= 4.6.6-1)
+Filename: pool/main/n/nss/libnss3-dev_3.21-0ubuntu0.15.10.1_i386.deb
+Size: 230702
+MD5sum: 24d55aeed5fb9a763b11155c312c5100
+SHA1: c06d0b0c7b6c3c6bbfdbd1e88a081d8f159411e4
+SHA256: 74743368b3b99934825b7e58396efe07105695d949dd261e123ab1011f97c6e0
 Description: Development files for the Network Security Service libraries
 Multi-Arch: same
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
@@ -5575,13 +5663,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: nss
-Version: 2:3.19.2.1-0ubuntu0.15.10.2
-Depends: libnss3 (= 2:3.19.2.1-0ubuntu0.15.10.2)
-Filename: pool/main/n/nss/libnss3-nssdb_3.19.2.1-0ubuntu0.15.10.2_all.deb
-Size: 10594
-MD5sum: 7ae9ed05349b3a199611b47fe8e6afa2
-SHA1: f75fd6a7862e8daea9b157c86383b9d8b0709604
-SHA256: 6e1d46b16ce2d4363e96f6895734a699029287bd0ee24bc8748d43a3f98d2b6d
+Version: 2:3.21-0ubuntu0.15.10.1
+Depends: libnss3 (= 2:3.21-0ubuntu0.15.10.1)
+Filename: pool/main/n/nss/libnss3-nssdb_3.21-0ubuntu0.15.10.1_all.deb
+Size: 10570
+MD5sum: 13419afdd84c54ee7cabf9efac6ec901
+SHA1: 14c77d3bc7371f73ce229ff4289bfc94063ba05f
+SHA256: aac22cbb4b84f21146089c8da06e685a8bde2a2200a5d5e960f040d94ce51703
 Description: Network Security Security libraries - shared databases
 Multi-Arch: foreign
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
@@ -5594,18 +5682,18 @@ Task: virt-host, ubuntu-desktop, ubuntu-usb, tomcat-server, cloud-image, kubuntu
 Package: libnss3-tools
 Priority: optional
 Section: admin
-Installed-Size: 4414
+Installed-Size: 4426
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: nss
-Version: 2:3.19.2.1-0ubuntu0.15.10.2
-Depends: libc6 (>= 2.4), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 4.7.0~1.9b1), libnss3 (>= 2:3.17.1), zlib1g (>= 1:1.1.4)
-Filename: pool/main/n/nss/libnss3-tools_3.19.2.1-0ubuntu0.15.10.2_i386.deb
-Size: 898120
-MD5sum: 1fb530122933309f6255fa1b5d26b556
-SHA1: c645c2c7fad8859fe997c6b9f2a7e9bd0acfc0a2
-SHA256: a5164eb191a65cab431a74c17a9c929ee8460f1e5f7497f13d82bb9347ac93c8
+Version: 2:3.21-0ubuntu0.15.10.1
+Depends: libc6 (>= 2.4), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 4.7.0~1.9b1), libnss3 (>= 2:3.21), zlib1g (>= 1:1.1.4)
+Filename: pool/main/n/nss/libnss3-tools_3.21-0ubuntu0.15.10.1_i386.deb
+Size: 900208
+MD5sum: a27467c36daf216acb2c28877afe242f
+SHA1: 1d581da8fa2864085246b69cfd4cff63fc9e5dd5
+SHA256: d21158e6ff476c5f62fc2bf85203c5fe3b29ac43d7aa8613a89aea1ceca85a6e
 Description: Network Security Service tools
 Homepage: http://www.mozilla.org/projects/security/pki/nss/tools/
 Description-md5: 33cc2c7795e9ef6579f85eabb1dbee18
@@ -18281,4 +18369,24 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 9m
 Task: ubuntu-core, ubuntu-desktop, ubuntu-usb, server, kubuntu-desktop, ubuntu-core, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop, ubuntustudio-desktop-minimal, ubuntu-gnome-desktop, ubuntu-sdk-libs, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xdelta3
+Priority: optional
+Section: utils
+Installed-Size: 178
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: A Mennucc1 <mennucc1@debian.org>
+Architecture: i386
+Version: 3.0.8-dfsg-1ubuntu0.15.10.2
+Depends: libc6 (>= 2.4), liblzma5 (>= 5.1.1alpha+20120614)
+Filename: pool/main/x/xdelta3/xdelta3_3.0.8-dfsg-1ubuntu0.15.10.2_i386.deb
+Size: 71084
+MD5sum: ee689e033eac16026da94c1ce1b3846c
+SHA1: ae62fef66f16d9c85fb41a3f584952c3a2f7fbe9
+SHA256: 69f804a123261dc916d891fd01f6cd731f2615ae4fc1320f436e97a129097490
+Description: Diff utility which works with binary files
+Description-md5: ee691dc32e90c3bd989ad440d2196fcc
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
 

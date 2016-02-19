@@ -20,4 +20,10 @@ parts:
       - libssl-dev 
       - pkg-config 
       - build-essential
-  
+    filesets:
+      binaries:
+        - ../src/bin/*
+    stage:
+      - $binaries
+
+

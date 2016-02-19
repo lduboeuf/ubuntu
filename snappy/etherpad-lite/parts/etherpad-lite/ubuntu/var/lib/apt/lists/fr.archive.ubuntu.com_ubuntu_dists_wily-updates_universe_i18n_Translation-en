@@ -2378,6 +2378,16 @@ Description-en: small, friendly text editor inspired by Pico - tiny build
  This package contains a build of GNU nano with many features disabled, for
  environments such as rescue disks where resources are limited.
 
+Package: netcf
+Description-md5: af4c8808089a2e99ec3fc2d13a5f851b
+Description-en: programs for the netcf library
+ Netcf is a library used to modify the network configuration of a
+ system. Network configurations are expressed in a platform-independent
+ XML format, which netcf translates into changes to the system's
+ 'native' network configuration files.
+ .
+ This package contains the supporting binaries to use with netcf.
+
 Package: nettle-bin
 Description-md5: b9c201f42c4b4fea02c357189015a9c0
 Description-en: low level cryptographic library (binary tools)

@@ -4179,6 +4179,26 @@ Description-md5: 26373c621bdb00986d716853280c567b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: netcf
+Priority: extra
+Section: universe/admin
+Installed-Size: 47
+Maintainer: Serge Hallyn <serge.hallyn@ubuntu.com>
+Architecture: i386
+Version: 1:0.2.6-1ubuntu2
+Depends: libc6 (>= 2.4), libnetcf1 (= 1:0.2.6-1ubuntu2), libreadline6 (>= 6.0)
+Filename: pool/universe/n/netcf/netcf_0.2.6-1ubuntu2_i386.deb
+Size: 13826
+MD5sum: d74309d8d8d62f7ca85a090e7e47cfc5
+SHA1: 05143b12e9e8faf7ab5ed4d993d73bb1b58b93bd
+SHA256: 4b053094114be6d4499a0c70860d617cf1c8cc4f7999428c4623e0990dd67472
+Description: programs for the netcf library
+Homepage: https://fedorahosted.org/netcf/
+Description-md5: af4c8808089a2e99ec3fc2d13a5f851b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 20
+
 Package: nettle-bin
 Priority: optional
 Section: universe/misc
